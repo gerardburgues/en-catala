@@ -2,7 +2,7 @@
 
 Learn practical A1 and A2 Catalan vocabulary with mobile-first flashcards, pronunciation, local progress, and no account.
 
-Screenshot placeholder: add a production screenshot after final visual review.
+Screenshot placeholder: replace with a production screenshot after final visual review.
 
 ## Stack
 
