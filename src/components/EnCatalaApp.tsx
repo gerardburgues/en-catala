@@ -99,8 +99,9 @@ export function EnCatalaApp() {
           </a>
           <div className="navlinks">
             <a href="#levels">Levels</a>
-            <a href="#about">About</a>
-            <a href="#privacy">Privacy</a>
+            <a href="/about">About</a>
+            <a href="/privacy">Privacy</a>
+            <a href="/install">Install</a>
           </div>
         </nav>
 
@@ -178,7 +179,6 @@ export function EnCatalaApp() {
           const next = resetProgress();
           setProgress(next);
         }}
-        audioLabel={audio.hasCatalanVoice ? `Catalan voice: ${audio.voiceName}` : "Catalan voice not detected on this device"}
       />
     </main>
   );
@@ -344,46 +344,21 @@ function StudySession({
   );
 }
 
-function InfoSections({ progress, onReset, audioLabel }: { progress: ProgressState; onReset: () => void; audioLabel: string }) {
+function InfoSections({ progress, onReset }: { progress: ProgressState; onReset: () => void }) {
   const touched = Object.keys(progress.cardStatus).length;
   return (
     <>
-      <section className="info-band" id="about">
-        <div>
-          <p className="eyebrow">About</p>
-          <h2>Simple flashcards for A1 and A2 Catalan</h2>
-        </div>
-        <p>
-          En català focuses on useful Central Catalan for Catalonia: greetings, cafes, transport, paperwork, housing, health,
-          food, work, weather and everyday conversation.
-        </p>
-      </section>
-      <section className="info-band" id="privacy">
-        <div>
-          <p className="eyebrow">Privacy</p>
-          <h2>No accounts, no tracking</h2>
-        </div>
-        <p>
-          Progress stays in this browser’s local storage. The site does not collect email addresses, set marketing cookies,
-          run analytics, or use a backend. Hosting providers may keep ordinary technical server logs.
-        </p>
-      </section>
-      <section className="info-band" id="install">
-        <div>
-          <p className="eyebrow">Install</p>
-          <h2>Works as an installable app</h2>
-        </div>
-        <p>
-          On iPhone, use Share then Add to Home Screen. On Android or desktop Chrome, use Install from the browser menu.
-          Lessons are cached after a successful load; pronunciation depends on the device’s installed voices. {audioLabel}.
-        </p>
-      </section>
       <section className="reset-band">
         <p>{touched} cards have saved progress on this device.</p>
         <button type="button" onClick={onReset}>Reset progress</button>
       </section>
       <footer>
-        <p>© 2026 En català. Interaction concept inspired by popolsku.app; no affiliation or endorsement.</p>
+        <nav aria-label="Footer">
+          <a href="/about">About</a>
+          <a href="/privacy">Privacy</a>
+          <a href="/install">Install</a>
+        </nav>
+        <p>© 2026 En català. Inspired by popolsku.app; no affiliation or endorsement.</p>
       </footer>
     </>
   );
