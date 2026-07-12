@@ -1,0 +1,17 @@
+{
+  "name": "En català",
+  "short_name": "En català",
+  "description": "A1 and A2 Catalan vocabulary flashcards.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8ee",
+  "theme_color": "#b8322b",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
