@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowLeft, Check, Headphones, RotateCcw, Volume2, X } from "lucide-react";
+import { ArrowLeft, Check, ChevronRight, Clock3, Headphones, Home, RotateCcw, Search, Tag, UserRound, Volume2, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { levels } from "@/data/levels";
 import { speakCatalan } from "@/lib/audio/speech";
@@ -23,6 +23,7 @@ type Session = {
 export function EnCatalaApp() {
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress());
   const [session, setSession] = useState<Session | null>(null);
+  const [query, setQuery] = useState("");
   const audio = useSpeechVoices();
 
   const activeLevel = progress.selectedLevel;
@@ -76,6 +77,11 @@ export function EnCatalaApp() {
     return topicProgress(ids, progress);
   }
 
+  const filteredTopics = level.topics.filter((topic) => {
+    const text = `${topic.name} ${topic.description}`.toLowerCase();
+    return text.includes(query.trim().toLowerCase());
+  });
+
   if (session) {
     return (
       <StudySession
@@ -90,7 +96,7 @@ export function EnCatalaApp() {
   }
 
   return (
-    <main>
+    <main className="app-home">
       <section className="hero">
         <nav className="topbar" aria-label="Primary">
           <a className="brand" href="#top" aria-label="En catala home">
@@ -107,66 +113,78 @@ export function EnCatalaApp() {
 
         <div className="hero-grid" id="top">
           <div className="hero-copy">
-            <p className="eyebrow">Completely free · No account needed</p>
             <h1>Learn the Catalan you’ll actually use.</h1>
             <p className="lede">
               Catalan flashcards with pronunciation, everyday vocabulary, useful expressions, and examples from real life.
             </p>
-            <div className="level-tabs" aria-label="Choose a level">
-              {levels.map((item) => (
-                <button
-                  className={item.level === activeLevel ? "active" : ""}
-                  key={item.level}
-                  onClick={() => chooseLevel(item.level)}
-                  type="button"
-                >
-                  {item.level}
-                  <span>{item.level === "A1" ? totals.a1 : totals.a2} cards</span>
-                </button>
-              ))}
-            </div>
-          </div>
-          <div className="phone-preview" aria-label="Flashcard preview">
-            <div className="preview-card">
-              <span className="mini-progress">3 / {totals.a1}</span>
-              <h2>Bon dia</h2>
-              <p>Tap to reveal the meaning</p>
-              <button type="button"><Volume2 size={18} /> Listen</button>
+            <div className="trust-pills" aria-label="Highlights">
+              <span><Tag size={15} /> Completely free</span>
+              <span><UserRound size={15} /> No account needed</span>
             </div>
           </div>
         </div>
       </section>
 
       <section className="section" id="levels">
+        <div className="control-group">
+          <p className="eyebrow">Vocabulary by level</p>
+          <div className="level-tabs" aria-label="Choose a level">
+            {levels.map((item) => (
+              <button
+                className={item.level === activeLevel ? "active" : ""}
+                key={item.level}
+                onClick={() => chooseLevel(item.level)}
+                type="button"
+              >
+                {item.level}
+                <span>{item.level === "A1" ? totals.a1 : totals.a2}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
         <div className="section-heading">
-          <p className="eyebrow">{level.level} · {level.blurb}</p>
-          <h2>{level.level} topics</h2>
+          <p className="eyebrow">Topics</p>
+          <label className="topic-search">
+            <Search size={20} />
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Search topics - e.g. food, home"
+              type="search"
+            />
+          </label>
         </div>
         <div className="topic-grid">
-          {level.topics.map((topic) => {
+          {filteredTopics.map((topic) => {
             const stats = currentResult(topic);
             const percent = Math.round((stats.known / stats.total) * 100);
             return (
               <article className="topic-card" key={topic.id}>
-                <div className="topic-title">
-                  <span aria-hidden>{topic.emoji}</span>
-                  <div>
-                    <h3>{topic.name}</h3>
-                    <p>{topic.description}</p>
+                <button className="topic-main" onClick={() => startTopic(topic)} type="button">
+                  <div className="topic-title">
+                    <span aria-hidden>{topic.emoji}</span>
+                    <div>
+                      <h3>{topic.name}</h3>
+                      <p>{topic.description}</p>
+                      <small><b>{level.level}</b> {topic.cards.length} cards</small>
+                    </div>
                   </div>
-                </div>
-                <div className="meter" aria-label={`${percent}% known`}>
-                  <span style={{ width: `${percent}%` }} />
-                </div>
-                <p className="topic-meta">
-                  {topic.cards.length} cards · {stats.known} known · {stats.learning} still learning
-                </p>
-                <div className="topic-actions">
-                  <button type="button" onClick={() => startTopic(topic)}>Start</button>
-                  <button type="button" onClick={() => startTopic(topic, "missed")} disabled={stats.learning === 0}>
-                    Review missed
+                  <ChevronRight className="topic-chevron" size={20} />
+                  <span className="topic-progress" aria-label={`${percent}% known`} style={{ width: `${percent}%` }} />
+                </button>
+                {stats.learning > 0 ? (
+                  <button
+                    className="review-chip"
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      startTopic(topic, "missed");
+                    }}
+                    type="button"
+                  >
+                    Review {stats.learning}
                   </button>
-                </div>
+                ) : null}
               </article>
             );
           })}
@@ -203,6 +221,7 @@ function StudySession({
   const card = session.cards[session.index];
   const progressText = `${session.index + 1} / ${session.cards.length}`;
   const percent = Math.round(((session.index + (session.finished ? 1 : 0)) / session.cards.length) * 100);
+  const previewHint = card.hint.split(" Meaning:")[0];
 
   useEffect(() => {
     function onKey(event: KeyboardEvent) {
@@ -263,34 +282,45 @@ function StudySession({
           </button>
           <div>
             <p>{session.topic.emoji} {session.topic.name}</p>
-            <span>{session.mode === "missed" ? "Missed-card review" : "Full topic"}</span>
+            <span>{session.mode === "missed" ? "Missed-card review" : `${session.topic.cards.length} cards`}</span>
+          </div>
+          <button className="slow-button" type="button" onClick={() => play(0.7)} disabled={!audio.hasCatalanVoice}>
+            <Clock3 size={15} /> Slow
+          </button>
+          <button type="button" className="icon-button" onClick={() => setSession(null)} aria-label="Back to home">
+            <Home size={20} />
+          </button>
+        </div>
+        <div className="study-progress-row">
+          <div className="meter tall" aria-label={`${percent}% through session`}>
+            <span style={{ width: `${percent}%` }} />
           </div>
           <strong>{progressText}</strong>
         </div>
-        <div className="meter tall" aria-label={`${percent}% through session`}>
-          <span style={{ width: `${percent}%` }} />
-        </div>
 
-        <article className="flashcard">
+        <article className={`flashcard ${session.revealed ? "is-revealed" : ""}`} onClick={() => !session.revealed && setSession({ ...session, revealed: true })}>
           <p className="eyebrow">Catalan</p>
+          <button
+            className="audio-fab"
+            type="button"
+            onClick={(event) => {
+              event.stopPropagation();
+              play(0.92);
+            }}
+            disabled={!audio.hasCatalanVoice}
+            aria-label="Play Catalan pronunciation"
+          >
+            <Volume2 size={22} />
+          </button>
           <h1>{card.ca}</h1>
-          <div className="audio-row">
-            <button type="button" onClick={() => play(0.92)} disabled={!audio.hasCatalanVoice}>
-              <Headphones size={18} /> Normal
-            </button>
-            <button type="button" onClick={() => play(0.7)} disabled={!audio.hasCatalanVoice}>
-              <Volume2 size={18} /> Slower
-            </button>
-          </div>
+          {!session.revealed ? <p className="card-hint">{previewHint}</p> : null}
           {!audio.hasCatalanVoice && (
             <p className="audio-note">{audio.supported ? "Install or enable a Catalan voice to hear pronunciation." : "Speech synthesis is unavailable in this browser."}</p>
           )}
           {audioMessage ? <p className="audio-note">{audioMessage}</p> : null}
 
           {!session.revealed ? (
-            <button className="reveal" type="button" onClick={() => setSession({ ...session, revealed: true })}>
-              Reveal meaning
-            </button>
+            <p className="tap-prompt">tap to see meaning</p>
           ) : (
             <div className="revealed">
               <dl>
@@ -329,14 +359,17 @@ function StudySession({
             onClick={() => setSession({ ...session, index: Math.max(0, session.index - 1), revealed: false })}
             disabled={session.index === 0}
           >
-            Previous
+            <ArrowLeft size={18} /> Prev
+          </button>
+          <button type="button" className="shuffle-button" onClick={() => setSession({ ...session, revealed: !session.revealed })}>
+            <Headphones size={18} />
           </button>
           <button
             type="button"
             onClick={() => setSession({ ...session, index: Math.min(session.cards.length - 1, session.index + 1), revealed: false })}
             disabled={session.index === session.cards.length - 1}
           >
-            Next
+            Next <ChevronRight size={18} />
           </button>
         </div>
       </section>
