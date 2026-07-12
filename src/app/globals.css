@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #f4f7fb;
+  --paper: #f8fafc;
   --ink: #1d2738;
   --muted: #60718c;
   --soft: #95a4ba;
@@ -92,16 +92,50 @@ footer,
   text-decoration: none;
 }
 
-.brand span {
+.logo-mark {
   display: grid;
   width: 38px;
   height: 38px;
   place-items: center;
+  flex: 0 0 auto;
+  box-shadow: 0 8px 18px rgba(29, 39, 56, 0.22);
+}
+
+.logo-mark svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.logo-bg {
+  fill: var(--ink);
+}
+
+.logo-tail {
+  fill: #f8fafc;
+  opacity: 0.96;
+}
+
+.logo-stripe {
+  stroke: #f5c542;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.logo-spark {
+  fill: none;
+  stroke: #4f55ff;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.text-logo {
   border-radius: 12px;
   background: var(--ink);
   color: white;
   font-weight: 900;
-  box-shadow: 0 8px 18px rgba(29, 39, 56, 0.22);
 }
 
 .navlinks {
@@ -525,7 +559,6 @@ footer p,
 .flashcard,
 .result-panel {
   margin-top: 124px;
-  padding: 22px;
   border: 1px solid var(--line);
   border-radius: 24px;
   background: var(--card);
@@ -534,24 +567,75 @@ footer p,
 
 .flashcard {
   position: relative;
-  display: flex;
   min-height: min(430px, 54svh);
-  flex-direction: column;
-  justify-content: center;
-  cursor: pointer;
+  padding: 0;
+  perspective: 1200px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
 }
 
-.flashcard h1 {
+.flip-hit-area {
+  display: block;
+  width: 100%;
+  min-height: inherit;
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+}
+
+.flashcard-inner {
+  position: relative;
+  display: block;
+  min-height: inherit;
+  border-radius: 24px;
+  transform-style: preserve-3d;
+  transition: transform 460ms cubic-bezier(0.2, 0.72, 0.2, 1);
+}
+
+.flashcard.is-revealed .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  min-height: inherit;
+  flex-direction: column;
+  justify-content: center;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  backface-visibility: hidden;
+}
+
+.flashcard-back {
+  justify-content: flex-start;
+  overflow-y: auto;
+  transform: rotateY(180deg);
+}
+
+.card-term {
+  display: block;
   margin: 0 0 16px;
   font-size: clamp(2rem, 11vw, 2.7rem);
+  font-weight: 500;
   line-height: 1.05;
   text-align: center;
   letter-spacing: 0;
 }
 
 .audio-note {
+  margin: 12px auto 0;
   color: var(--blue);
   font-weight: 700;
+  text-align: center;
 }
 
 .audio-fab {
@@ -586,6 +670,14 @@ footer p,
   text-align: center;
 }
 
+.flip-back-prompt {
+  display: block;
+  margin-top: 12px;
+  color: var(--soft);
+  font-size: 0.82rem;
+  text-align: center;
+}
+
 .revealed {
   margin-top: 8px;
 }
@@ -612,6 +704,8 @@ dd {
 .grade-row {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 16px;
 }
 
 .grade-row button {
@@ -622,7 +716,7 @@ dd {
   display: grid;
   grid-template-columns: 1fr 58px 1fr;
   align-items: center;
-  margin-top: 126px;
+  margin-top: 28px;
 }
 
 .step-row button {
@@ -774,5 +868,9 @@ footer a {
   *,
   html {
     scroll-behavior: auto;
+  }
+
+  .flashcard-inner {
+    transition: none;
   }
 }

@@ -32,7 +32,7 @@ function PageNav() {
   return (
     <nav className="page-nav" aria-label="Page">
       <Link className="brand" href="/">
-        <span>CA</span>
+        <span className="logo-mark text-logo">CA</span>
         <strong>En català</strong>
       </Link>
       <div className="navlinks visible">
