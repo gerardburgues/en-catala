@@ -100,7 +100,7 @@ export function EnCatalaApp() {
       <section className="hero">
         <nav className="topbar" aria-label="Primary">
           <a className="brand" href="#top" aria-label="En catala home">
-            <span>CA</span>
+            <LogoMark />
             <strong>En català</strong>
           </a>
           <div className="navlinks">
@@ -227,7 +227,7 @@ function StudySession({
     function onKey(event: KeyboardEvent) {
       if (event.key === " " || event.key === "Enter") {
         event.preventDefault();
-        if (!session.finished && !session.revealed) setSession({ ...session, revealed: true });
+        if (!session.finished) setSession({ ...session, revealed: !session.revealed });
       }
       if (event.key.toLowerCase() === "k" && session.revealed) markCard("known");
       if (event.key.toLowerCase() === "l" && session.revealed) markCard("learning");
@@ -298,8 +298,45 @@ function StudySession({
           <strong>{progressText}</strong>
         </div>
 
-        <article className={`flashcard ${session.revealed ? "is-revealed" : ""}`} onClick={() => !session.revealed && setSession({ ...session, revealed: true })}>
-          <p className="eyebrow">Catalan</p>
+        <div className={`flashcard ${session.revealed ? "is-revealed" : ""}`}>
+          <button
+            className="flip-hit-area"
+            type="button"
+            onClick={() => setSession({ ...session, revealed: !session.revealed })}
+            aria-label={session.revealed ? "Flip card back to Catalan" : "Flip card to reveal meaning"}
+          >
+            <span className="flashcard-inner">
+              <span className="flashcard-face flashcard-front">
+                <span className="eyebrow">Catalan</span>
+                <span className="card-term">{card.ca}</span>
+                <span className="card-hint">{previewHint}</span>
+                <span className="tap-prompt">tap to see meaning</span>
+              </span>
+              <span className="flashcard-face flashcard-back">
+                <span className="eyebrow">Meaning</span>
+                <span className="card-term">{card.ca}</span>
+                <dl>
+                  <div>
+                    <dt>Meaning</dt>
+                    <dd>{card.en}</dd>
+                  </div>
+                  <div>
+                    <dt>In everyday use</dt>
+                    <dd>{card.ex}</dd>
+                  </div>
+                  <div>
+                    <dt>Example translation</dt>
+                    <dd>{card.exEn}</dd>
+                  </div>
+                  <div>
+                    <dt>Learning notes</dt>
+                    <dd>{card.hint}</dd>
+                  </div>
+                </dl>
+                <span className="flip-back-prompt">tap card to flip back</span>
+              </span>
+            </span>
+          </button>
           <button
             className="audio-fab"
             type="button"
@@ -312,46 +349,22 @@ function StudySession({
           >
             <Volume2 size={22} />
           </button>
-          <h1>{card.ca}</h1>
-          {!session.revealed ? <p className="card-hint">{previewHint}</p> : null}
-          {!audio.hasCatalanVoice && (
-            <p className="audio-note">{audio.supported ? "Install or enable a Catalan voice to hear pronunciation." : "Speech synthesis is unavailable in this browser."}</p>
-          )}
-          {audioMessage ? <p className="audio-note">{audioMessage}</p> : null}
+        </div>
+        {!audio.hasCatalanVoice && (
+          <p className="audio-note">{audio.supported ? "Install or enable a Catalan voice to hear pronunciation." : "Speech synthesis is unavailable in this browser."}</p>
+        )}
+        {audioMessage ? <p className="audio-note">{audioMessage}</p> : null}
 
-          {!session.revealed ? (
-            <p className="tap-prompt">tap to see meaning</p>
-          ) : (
-            <div className="revealed">
-              <dl>
-                <div>
-                  <dt>Meaning</dt>
-                  <dd>{card.en}</dd>
-                </div>
-                <div>
-                  <dt>In everyday use</dt>
-                  <dd>{card.ex}</dd>
-                </div>
-                <div>
-                  <dt>Example translation</dt>
-                  <dd>{card.exEn}</dd>
-                </div>
-                <div>
-                  <dt>Learning notes</dt>
-                  <dd>{card.hint}</dd>
-                </div>
-              </dl>
-              <div className="grade-row">
-                <button type="button" onClick={() => markCard("learning")}>
-                  <X size={18} /> Still learning
-                </button>
-                <button type="button" onClick={() => markCard("known")}>
-                  <Check size={18} /> I knew it
-                </button>
-              </div>
-            </div>
-          )}
-        </article>
+        {session.revealed ? (
+          <div className="grade-row">
+            <button type="button" onClick={() => markCard("learning")}>
+              <X size={18} /> Still learning
+            </button>
+            <button type="button" onClick={() => markCard("known")}>
+              <Check size={18} /> I knew it
+            </button>
+          </div>
+        ) : null}
 
         <div className="step-row">
           <button
@@ -394,5 +407,20 @@ function InfoSections({ progress, onReset }: { progress: ProgressState; onReset:
         <p>© 2026 En català. Inspired by popolsku.app; no affiliation or endorsement.</p>
       </footer>
     </>
+  );
+}
+
+function LogoMark() {
+  return (
+    <span className="logo-mark" aria-hidden="true">
+      <svg viewBox="0 0 48 48" role="img">
+        <rect className="logo-bg" x="4" y="4" width="40" height="40" rx="12" />
+        <path className="logo-tail" d="M17 36 12 43l10-4" />
+        <path className="logo-stripe" d="M13 17h22" />
+        <path className="logo-stripe" d="M13 24h22" />
+        <path className="logo-stripe" d="M13 31h22" />
+        <path className="logo-spark" d="M31 10 38 8l-4 6" />
+      </svg>
+    </span>
   );
 }

@@ -16,11 +16,14 @@ describe("EnCatalaApp", () => {
     await user.click(screen.getByRole("button", { name: /First phrases/i }));
     expect(screen.getByText(/1 \/ 27/)).toBeInTheDocument();
 
-    await user.click(screen.getByText(/tap to see meaning/i));
-    expect(screen.getByText("Meaning")).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: /flip card to reveal meaning/i }));
+    expect(screen.getAllByText("Meaning")[0]).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: /flip card back to catalan/i }));
+    expect(screen.getByRole("button", { name: /flip card to reveal meaning/i })).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: /flip card to reveal meaning/i }));
     await user.click(screen.getByRole("button", { name: /i knew it/i }));
 
-    await user.click(screen.getByText(/tap to see meaning/i));
+    await user.click(screen.getByRole("button", { name: /flip card to reveal meaning/i }));
     await user.click(screen.getByRole("button", { name: /still learning/i }));
     await user.click(screen.getByRole("button", { name: /return to topics/i }));
 
