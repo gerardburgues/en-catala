@@ -1,5 +1,45 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/plus-jakarta-sans-v12-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/plus-jakarta-sans-v12-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/plus-jakarta-sans-v12-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/plus-jakarta-sans-v12-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/plus-jakarta-sans-v12-latin-800.woff2") format("woff2");
+}
+
 :root {
   --paper: #f8fafc;
   --ink: #1d2738;
@@ -27,7 +67,10 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 button,
@@ -89,6 +132,7 @@ footer,
   align-items: center;
   gap: 10px;
   color: var(--ink);
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -135,7 +179,7 @@ footer,
   border-radius: 12px;
   background: var(--ink);
   color: white;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .navlinks {
@@ -164,7 +208,8 @@ footer,
   margin: 0;
   max-width: 390px;
   font-size: clamp(2.05rem, 10vw, 2.7rem);
-  line-height: 0.98;
+  font-weight: 800;
+  line-height: 1.06;
   letter-spacing: 0;
 }
 
@@ -175,8 +220,9 @@ footer,
 .lede {
   max-width: 390px;
   color: var(--muted);
-  font-size: 1rem;
-  line-height: 1.45;
+  font-size: 0.94rem;
+  font-weight: 500;
+  line-height: 1.5;
   margin: 12px 0 16px;
 }
 
@@ -184,7 +230,7 @@ footer,
   margin: 0 0 12px;
   color: var(--red-dark);
   font-size: 0.75rem;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -204,8 +250,8 @@ footer,
   border-radius: 999px;
   background: var(--ink);
   color: white;
-  font-size: 0.83rem;
-  font-weight: 850;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
 .level-tabs {
@@ -225,8 +271,8 @@ footer,
   border: 1px solid var(--line);
   background: var(--card);
   color: var(--ink);
-  font-size: 1rem;
-  font-weight: 900;
+  font-size: 0.94rem;
+  font-weight: 700;
   box-shadow: var(--shadow);
 }
 
@@ -284,12 +330,12 @@ footer,
   padding: 0 18px;
   background: var(--red);
   color: white;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .mini-progress {
   color: var(--blue);
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .section {
@@ -352,7 +398,8 @@ footer,
 
 .topic-title h3 {
   margin: 0;
-  font-size: 1.02rem;
+  font-size: 1rem;
+  font-weight: 700;
   line-height: 1.1;
 }
 
@@ -367,8 +414,9 @@ footer p,
 
 .topic-title p {
   margin: 4px 0 6px;
-  font-size: 0.88rem;
-  line-height: 1.25;
+  font-size: 0.86rem;
+  font-weight: 500;
+  line-height: 1.35;
 }
 
 .topic-title small {
@@ -376,7 +424,8 @@ footer p,
   align-items: center;
   gap: 8px;
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
+  font-weight: 500;
 }
 
 .topic-title small b {
@@ -387,6 +436,7 @@ footer p,
   border-radius: 999px;
   background: var(--gold);
   color: var(--blue);
+  font-weight: 700;
 }
 
 .topic-chevron {
@@ -438,7 +488,7 @@ footer p,
   background: #eef1ff;
   color: var(--blue);
   font-size: 0.75rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .meter {
@@ -482,7 +532,7 @@ footer p,
   padding: 0 16px;
   background: #eee0cf;
   color: var(--ink);
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .study-wrap {
@@ -539,7 +589,7 @@ footer p,
   background: var(--card);
   color: var(--muted);
   font-size: 0.84rem;
-  font-weight: 900;
+  font-weight: 700;
   box-shadow: var(--shadow);
 }
 
@@ -624,9 +674,9 @@ footer p,
 .card-term {
   display: block;
   margin: 0 0 16px;
-  font-size: clamp(2rem, 11vw, 2.7rem);
-  font-weight: 500;
-  line-height: 1.05;
+  font-size: clamp(2rem, 11vw, 2.62rem);
+  font-weight: 800;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0;
 }
@@ -656,7 +706,9 @@ footer p,
   max-width: 280px;
   margin: 0 auto;
   color: var(--muted);
-  line-height: 1.45;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -667,6 +719,7 @@ footer p,
   left: 22px;
   color: var(--soft);
   font-size: 0.82rem;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -675,6 +728,7 @@ footer p,
   margin-top: 12px;
   color: var(--soft);
   font-size: 0.82rem;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -691,14 +745,15 @@ dl {
 dt {
   color: var(--red-dark);
   font-size: 0.78rem;
-  font-weight: 900;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
 dd {
   margin: 4px 0 0;
-  font-size: 1.08rem;
-  line-height: 1.55;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .grade-row {
@@ -790,7 +845,7 @@ footer a {
   border-radius: 999px;
   background: var(--card);
   color: var(--ink);
-  font-weight: 900;
+  font-weight: 700;
   text-decoration: none;
   box-shadow: var(--shadow);
 }
