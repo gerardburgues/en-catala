@@ -22,16 +22,16 @@ export const levels = [
           {
             "id": "first-phrases-002",
             "ca": "Bona tarda",
-            "en": "Good evening",
-            "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: Good evening.",
+            "en": "Good afternoon / Good evening",
+            "hint": "Use bona tarda from the afternoon into the evening; bon vespre is also possible later in the day.",
             "ex": "Bona tarda, taula per a dos.",
             "exEn": "Good evening, a table for two."
           },
           {
             "id": "first-phrases-003",
             "ca": "Hola",
-            "en": "Hi / Bye",
-            "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: Hi / Bye.",
+            "en": "Hi / Hello",
+            "hint": "Hola is the safest informal greeting; use adéu or adeu for goodbye.",
             "ex": "Hola, fa temps que no ens veiem!",
             "exEn": "Hi, long time no see!"
           },
@@ -45,33 +45,33 @@ export const levels = [
           },
           {
             "id": "first-phrases-005",
-            "ca": "De moment",
-            "en": "See you / Bye for now",
-            "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: See you / Bye for now.",
-            "ex": "De moment, m'he d'anar.",
-            "exEn": "See you, I have to go now."
+            "ca": "Fins ara",
+            "en": "See you soon / Bye for now",
+            "hint": "Fins ara is a natural goodbye when you expect to meet or speak again soon.",
+            "ex": "Fins ara, he de marxar.",
+            "exEn": "See you soon, I have to go."
           },
           {
             "id": "first-phrases-006",
             "ca": "Gràcies",
             "en": "Thank you",
             "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: Thank you.",
-            "ex": "Gràcies per la vostra ajuda.",
+            "ex": "Gràcies per la teva ajuda.",
             "exEn": "Thank you for your help."
           },
           {
             "id": "first-phrases-007",
             "ca": "si us plau",
-            "en": "Please / Here you go / You're welcome",
-            "hint": "This is a polite everyday form in Catalonia. Meaning: Please / Here you go / You're welcome.",
-            "ex": "Aquí, això és per a tu.",
-            "exEn": "Here you go, this is for you."
+            "en": "please",
+            "hint": "The standard polite word for please in Catalonia. It does not mean you are welcome.",
+            "ex": "Un cafè, si us plau.",
+            "exEn": "A coffee, please."
           },
           {
             "id": "first-phrases-008",
-            "ca": "Ho sento",
-            "en": "Sorry / Excuse me",
-            "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: Sorry / Excuse me.",
+            "ca": "Disculpa / ho sento",
+            "en": "Excuse me / sorry",
+            "hint": "Use disculpa or disculpeu to get attention; use ho sento to apologize.",
             "ex": "Disculpeu, on és la sortida?",
             "exEn": "Excuse me, where is the exit?"
           },
@@ -101,9 +101,9 @@ export const levels = [
           },
           {
             "id": "first-phrases-012",
-            "ca": "Parles anglès?",
+            "ca": "Parles anglès? / Parleu anglès?",
             "en": "Do you speak English?",
-            "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: Do you speak English?.",
+            "hint": "Parles is informal singular; parleu is polite/formal or plural.",
             "ex": "Disculpeu, parleu anglès?",
             "exEn": "Excuse me, do you speak English?"
           },
@@ -117,18 +117,18 @@ export const levels = [
           },
           {
             "id": "first-phrases-014",
-            "ca": "El meu nom és...",
+            "ca": "Em dic...",
             "en": "My name is...",
-            "hint": "Masculine nouns usually take el or un. Meaning: My name is....",
+            "hint": "Em dic is the most natural way to say your name in everyday Catalan.",
             "ex": "Em dic Anna.",
             "exEn": "My name is Anna."
           },
           {
             "id": "first-phrases-015",
-            "ca": "Encantat de conèixer-te",
+            "ca": "Encantat / encantada",
             "en": "Nice to meet you",
-            "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: Nice to meet you.",
-            "ex": "Encantat de conèixer-te.",
+            "hint": "Say encantat if you identify as male and encantada if you identify as female.",
+            "ex": "Encantada de conèixer-te.",
             "exEn": "Nice to meet you."
           },
           {
@@ -136,8 +136,8 @@ export const levels = [
             "ca": "Com estàs?",
             "en": "How are you?",
             "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: How are you?.",
-            "ex": "Hola Marek, com estàs?",
-            "exEn": "Hi Marek, how are you?"
+            "ex": "Hola, Laia, com estàs?",
+            "exEn": "Hi Laia, how are you?"
           },
           {
             "id": "first-phrases-017",
@@ -149,34 +149,34 @@ export const levels = [
           },
           {
             "id": "first-phrases-018",
-            "ca": "Què passa?",
+            "ca": "Què tal?",
             "en": "What's up? (very casual)",
-            "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: What's up? (very casual).",
-            "ex": "Què passa, Kasia?",
-            "exEn": "What's up, Kasia?"
+            "hint": "A very common casual check-in, similar to “how’s it going?”.",
+            "ex": "Què tal, Jordi?",
+            "exEn": "How’s it going, Jordi?"
           },
           {
             "id": "first-phrases-019",
-            "ca": "Tot està bé",
-            "en": "Everything's fine / All good",
-            "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: Everything's fine / All good.",
-            "ex": "Tot està bé, gràcies.",
-            "exEn": "Everything's fine, thanks."
+            "ca": "Tot bé",
+            "en": "All good / Everything is fine",
+            "hint": "Tot bé is a short, natural answer to com estàs? in everyday speech.",
+            "ex": "Tot bé, gràcies.",
+            "exEn": "All good, thanks."
           },
           {
             "id": "first-phrases-020",
-            "ca": "si us plau...",
+            "ca": "Voldria...",
             "en": "I'd like... (ordering)",
-            "hint": "This is a polite everyday form in Catalonia. Meaning: I'd like... (ordering).",
-            "ex": "M'agradaria una mica de cafè i aigua.",
-            "exEn": "A coffee and a water, please."
+            "hint": "Voldria is a polite, useful way to order in a cafe or shop.",
+            "ex": "Voldria un cafè i una aigua.",
+            "exEn": "I’d like a coffee and a water."
           },
           {
             "id": "first-phrases-021",
             "ca": "Quant és?",
             "en": "How much is it?",
             "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: How much is it?.",
-            "ex": "Ho sento, quant costa?",
+            "ex": "Disculpeu, quant és?",
             "exEn": "Excuse me, how much is it?"
           },
           {
@@ -189,27 +189,27 @@ export const levels = [
           },
           {
             "id": "first-phrases-023",
-            "ca": "De benvingut",
+            "ca": "De res",
             "en": "You're welcome / Don't mention it",
-            "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: You're welcome / Don't mention it.",
-            "ex": "Gràcies! - De benvingut.",
-            "exEn": "Thank you! - You're welcome."
+            "hint": "De res is the normal response after gràcies.",
+            "ex": "Gràcies! - De res.",
+            "exEn": "Thank you! - You’re welcome."
           },
           {
             "id": "first-phrases-024",
-            "ca": "Gaudeix del teu àpat!",
+            "ca": "Bon profit!",
             "en": "Enjoy your meal!",
-            "hint": "Masculine nouns usually take el or un. Meaning: Enjoy your meal!.",
-            "ex": "Aquí tens, bona gana!",
-            "exEn": "Here you are, enjoy your meal!"
+            "hint": "Bon profit is the natural Catalan phrase before or during a meal.",
+            "ex": "Aquí tens. Bon profit!",
+            "exEn": "Here you are. Enjoy your meal!"
           },
           {
             "id": "first-phrases-025",
             "ca": "Salut!",
             "en": "Cheers! / Bless you!",
-            "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: Cheers! / Bless you!.",
-            "ex": "Salut! Per la reunió!",
-            "exEn": "Cheers! To our meeting!"
+            "hint": "Salut means “cheers” when drinking and “bless you” after someone sneezes.",
+            "ex": "Salut! Per nosaltres!",
+            "exEn": "Cheers! To us!"
           },
           {
             "id": "first-phrases-026",
@@ -224,7 +224,7 @@ export const levels = [
             "ca": "Ens veiem",
             "en": "See you (soon)",
             "hint": "Useful first phrases vocabulary in standard Central Catalan. Meaning: See you (soon).",
-            "ex": "Gràcies per avui, fins aviat!",
+            "ex": "Gràcies per avui, ens veiem!",
             "exEn": "Thanks for today, see you!"
           }
         ]
@@ -253,7 +253,7 @@ export const levels = [
           },
           {
             "id": "numbers-prices-003",
-            "ca": "Tres",
+            "ca": "tres",
             "en": "three",
             "hint": "Useful numbers and prices vocabulary in standard Central Catalan. Meaning: three.",
             "ex": "Tres cafès, si us plau.",
@@ -305,7 +305,7 @@ export const levels = [
             "en": "nine",
             "hint": "Useful numbers and prices vocabulary in standard Central Catalan. Meaning: nine.",
             "ex": "Nou euros per bitllet.",
-            "exEn": "Nine euro for a ticket."
+            "exEn": "Nine euros for a ticket."
           },
           {
             "id": "numbers-prices-010",
@@ -333,58 +333,58 @@ export const levels = [
           },
           {
             "id": "numbers-prices-013",
-            "ca": "daurat",
+            "ca": "euro",
             "en": "euro (the currency)",
-            "hint": "Useful numbers and prices vocabulary in standard Central Catalan. Meaning: euro (the currency).",
+            "hint": "The currency is euro; in Catalan the plural is euros.",
             "ex": "Pago cinquanta euros.",
-            "exEn": "I'm paying fifty euros."
+            "exEn": "I’m paying fifty euros."
           },
           {
             "id": "numbers-prices-014",
             "ca": "cèntim",
-            "en": "cent (a penny)",
-            "hint": "Use euros and cèntims for prices in Catalonia. Meaning: cent (a penny).",
+            "en": "cent (one hundredth of a euro)",
+            "hint": "Use cèntim for euro cents; the plural is cèntims.",
             "ex": "Costa dos euros i cinquanta cèntims.",
             "exEn": "It costs two euros fifty."
           },
           {
             "id": "numbers-prices-015",
-            "ca": "Quant pago?",
-            "en": "How much do I pay?",
-            "hint": "Useful numbers and prices vocabulary in standard Central Catalan. Meaning: How much do I pay?.",
-            "ex": "Quant pago per tot?",
-            "exEn": "How much do I pay for everything?"
+            "ca": "Quant és?",
+            "en": "How much is it?",
+            "hint": "Quant és? is the most useful short question when paying.",
+            "ex": "Quant és tot?",
+            "exEn": "How much is everything?"
           },
           {
             "id": "numbers-prices-016",
             "ca": "Puc pagar amb targeta?",
             "en": "Can I pay by card?",
-            "hint": "Use euros and cèntims for prices in Catalonia. Meaning: Can I pay by card?.",
+            "hint": "Pagar amb targeta is the natural phrase for paying by card.",
             "ex": "Puc pagar amb targeta?",
             "exEn": "Can I pay by card?"
           },
           {
             "id": "numbers-prices-017",
-            "ca": "diners en efectiu",
+            "ca": "efectiu",
             "en": "cash",
-            "hint": "Useful numbers and prices vocabulary in standard Central Catalan. Meaning: cash.",
+            "hint": "En efectiu means in cash.",
             "ex": "Pago en efectiu.",
             "exEn": "I'm paying in cash."
           },
           {
             "id": "numbers-prices-018",
-            "ca": "Junts",
-            "en": "together / in total",
-            "hint": "Useful numbers and prices vocabulary in standard Central Catalan. Meaning: together / in total.",
-            "ex": "Quants en total?",
-            "exEn": "How much in total?"
+            "ca": "en total",
+            "en": "in total / altogether",
+            "hint": "Use en total when asking for the total price.",
+            "ex": "Quant és en total?",
+            "exEn": "How much is it in total?"
           },
           {
             "id": "numbers-prices-019",
-            "ca": "descansar",
+            "ca": "canvi",
             "en": "change (money back)",
-            "hint": "Useful numbers and prices vocabulary in standard Central Catalan. Meaning: change (money back).",
-            "ex": "Mantingueu el canvi.",
+            "hint": "Canvi is the money returned after paying; keep the change is queda’t el canvi.",
+            "ex": "Queda’t el canvi.",
             "exEn": "Keep the change."
           },
           {
@@ -415,7 +415,7 @@ export const levels = [
             "id": "cafe-002",
             "ca": "te",
             "en": "tea",
-            "hint": "Useful at the cafe vocabulary in standard Central Catalan. Meaning: tea.",
+            "hint": "Te has no accent in Catalan; té means “has”.",
             "ex": "Prefereixo el te que el cafè.",
             "exEn": "I prefer tea to coffee."
           },
@@ -423,8 +423,8 @@ export const levels = [
             "id": "cafe-003",
             "ca": "aigua",
             "en": "water",
-            "hint": "Useful at the cafe vocabulary in standard Central Catalan. Meaning: water.",
-            "ex": "Aigua tranquil·la, si us plau.",
+            "hint": "Aigua sense gas is still water; aigua amb gas is sparkling water.",
+            "ex": "Aigua sense gas, si us plau.",
             "exEn": "Still water, please."
           },
           {
@@ -480,31 +480,31 @@ export const levels = [
             "ca": "Per mi...",
             "en": "For me... (ordering)",
             "hint": "Useful at the cafe vocabulary in standard Central Catalan. Meaning: For me... (ordering).",
-            "ex": "Té per a mi, si us plau.",
+            "ex": "Per mi, un te, si us plau.",
             "exEn": "A tea for me, please."
           },
           {
             "id": "cafe-011",
-            "ca": "per anar",
+            "ca": "per emportar",
             "en": "to take away",
-            "hint": "Useful at the cafe vocabulary in standard Central Catalan. Meaning: to take away.",
+            "hint": "Use per emportar for takeaway orders.",
             "ex": "Per emportar, si us plau.",
             "exEn": "To take away, please."
           },
           {
             "id": "cafe-012",
-            "ca": "al lloc",
+            "ca": "per prendre aquí",
             "en": "to have here / dine in",
-            "hint": "Useful at the cafe vocabulary in standard Central Catalan. Meaning: to have here / dine in.",
-            "ex": "Al lloc o per emportar?",
+            "hint": "Use per prendre aquí when you want to eat or drink in the cafe.",
+            "ex": "Per prendre aquí o per emportar?",
             "exEn": "To have here or take away?"
           },
           {
             "id": "cafe-013",
-            "ca": "Gaudeix del teu àpat!",
+            "ca": "Bon profit!",
             "en": "Enjoy your meal!",
-            "hint": "Masculine nouns usually take el or un. Meaning: Enjoy your meal!.",
-            "ex": "Gaudeix del teu àpat!",
+            "hint": "Bon profit is the normal Catalan phrase for “enjoy your meal”.",
+            "ex": "Bon profit!",
             "exEn": "Enjoy your meal!"
           },
           {
@@ -517,10 +517,10 @@ export const levels = [
           },
           {
             "id": "cafe-015",
-            "ca": "targeta/menú",
+            "ca": "carta / menú",
             "en": "menu",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: menu.",
-            "ex": "M'agradaria una targeta, si us plau.",
+            "hint": "La carta is the list of dishes; menú often means a fixed-price set menu.",
+            "ex": "La carta, si us plau.",
             "exEn": "The menu, please."
           },
           {
@@ -536,7 +536,7 @@ export const levels = [
             "ca": "calent/fred",
             "en": "hot / cold",
             "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: hot / cold.",
-            "ex": "M'agradaria una mica d'aigua freda.",
+            "ex": "Voldria aigua freda, si us plau.",
             "exEn": "Cold water, please."
           },
           {
@@ -544,7 +544,7 @@ export const levels = [
             "ca": "gran/petit",
             "en": "big / small",
             "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: big / small.",
-            "ex": "M'agradaria un gran cafè, si us plau.",
+            "ex": "Voldria un cafè gran, si us plau.",
             "exEn": "A large coffee, please."
           },
           {
@@ -584,7 +584,7 @@ export const levels = [
             "ca": "a l'esquerra",
             "en": "to the left",
             "hint": "Useful finding your way vocabulary in standard Central Catalan. Meaning: to the left.",
-            "ex": "si us plau, gireu a l'esquerra.",
+            "ex": "Gireu a l’esquerra, si us plau.",
             "exEn": "Turn left, please."
           },
           {
@@ -600,16 +600,16 @@ export const levels = [
             "ca": "recte",
             "en": "straight ahead",
             "hint": "Useful finding your way vocabulary in standard Central Catalan. Meaning: straight ahead.",
-            "ex": "si us plau, seguiu recte.",
+            "ex": "Seguiu recte, si us plau.",
             "exEn": "Go straight ahead."
           },
           {
             "id": "finding-your-way-005",
-            "ca": "tancar",
+            "ca": "a prop",
             "en": "near / close",
-            "hint": "Useful finding your way vocabulary in standard Central Catalan. Meaning: near / close.",
-            "ex": "Això està molt a prop.",
-            "exEn": "It's very close."
+            "hint": "A prop means nearby or close to where you are.",
+            "ex": "És molt a prop.",
+            "exEn": "It’s very close."
           },
           {
             "id": "finding-your-way-006",
@@ -621,10 +621,10 @@ export const levels = [
           },
           {
             "id": "finding-your-way-007",
-            "ca": "aquí / aquí",
+            "ca": "aquí",
             "en": "here",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: here.",
-            "ex": "si us plau, atureu-vos aquí.",
+            "hint": "Aquí is “here”; allà is “there”.",
+            "ex": "Atureu-vos aquí, si us plau.",
             "exEn": "Please stop here."
           },
           {
@@ -632,23 +632,23 @@ export const levels = [
             "ca": "allà",
             "en": "there",
             "hint": "Useful finding your way vocabulary in standard Central Catalan. Meaning: there.",
-            "ex": "La botiga hi és.",
+            "ex": "La botiga és allà.",
             "exEn": "The shop is over there."
           },
           {
             "id": "finding-your-way-009",
-            "ca": "A prop",
+            "ca": "al costat de",
             "en": "next to / beside",
-            "hint": "Useful finding your way vocabulary in standard Central Catalan. Meaning: next to / beside.",
-            "ex": "La farmàcia està al costat del banc.",
+            "hint": "Al costat de means next to or beside something.",
+            "ex": "La farmàcia és al costat del banc.",
             "exEn": "The pharmacy is next to the bank."
           },
           {
             "id": "finding-your-way-010",
-            "ca": "a la volta de la cantonada",
+            "ca": "a la cantonada",
             "en": "around the corner",
-            "hint": "Feminine nouns usually take la or una; l' appears before many vowel sounds. Meaning: around the corner.",
-            "ex": "La fleca és a la volta de la cantonada.",
+            "hint": "A la cantonada is the natural phrase for “on/around the corner”.",
+            "ex": "La fleca és a la cantonada.",
             "exEn": "The bakery is around the corner."
           },
           {
@@ -680,7 +680,7 @@ export const levels = [
             "ca": "estació",
             "en": "station (train / bus)",
             "hint": "Useful finding your way vocabulary in standard Central Catalan. Meaning: station (train / bus).",
-            "ex": "Com arribar a l'estació?",
+            "ex": "Com puc arribar a l’estació?",
             "exEn": "How do I get to the station?"
           },
           {
@@ -696,8 +696,8 @@ export const levels = [
             "ca": "Com arribar a...?",
             "en": "How do I get to...? (on foot)",
             "hint": "Useful finding your way vocabulary in standard Central Catalan. Meaning: How do I get to...? (on foot).",
-            "ex": "Com arribar al mercat?",
-            "exEn": "How do I get to the market square?"
+            "ex": "Com puc arribar al mercat?",
+            "exEn": "How do I get to the market?"
           },
           {
             "id": "finding-your-way-017",
@@ -709,10 +709,10 @@ export const levels = [
           },
           {
             "id": "finding-your-way-018",
-            "ca": "torn",
+            "ca": "girar",
             "en": "to turn",
-            "hint": "Useful finding your way vocabulary in standard Central Catalan. Meaning: to turn.",
-            "ex": "si us plau, gireu a la dreta.",
+            "hint": "Girar is the verb “to turn”; girar a la dreta means turn right.",
+            "ex": "Gireu a la dreta, si us plau.",
             "exEn": "Turn right, please."
           },
           {
@@ -741,9 +741,9 @@ export const levels = [
         "cards": [
           {
             "id": "about-me-001",
-            "ca": "El meu nom és...",
+            "ca": "Em dic...",
             "en": "My name is... (full name)",
-            "hint": "Masculine nouns usually take el or un. Meaning: My name is... (full name).",
+            "hint": "Em dic is more natural than a literal “my name is” in introductions.",
             "ex": "Em dic Anna Puig.",
             "exEn": "My name is Anna Puig."
           },
@@ -752,8 +752,8 @@ export const levels = [
             "ca": "sóc de...",
             "en": "I'm from...",
             "hint": "Useful about me vocabulary in standard Central Catalan. Meaning: I'm from....",
-            "ex": "Sóc d'Espanya.",
-            "exEn": "I'm from Spain."
+            "ex": "Soc del Canadà.",
+            "exEn": "I’m from Canada."
           },
           {
             "id": "about-me-003",
@@ -765,18 +765,18 @@ export const levels = [
           },
           {
             "id": "about-me-004",
-            "ca": "Estic aprenent català",
+            "ca": "Aprenc català",
             "en": "I'm learning Catalan",
-            "hint": "Useful about me vocabulary in standard Central Catalan. Meaning: I'm learning Catalan.",
+            "hint": "Aprenc català is simple and natural; estic aprenent català is also possible.",
             "ex": "Fa un any que aprenc català.",
             "exEn": "I've been learning Catalan for a year."
           },
           {
             "id": "about-me-005",
-            "ca": "Jo treballo com...",
+            "ca": "Treballo de...",
             "en": "I work as...",
-            "hint": "Useful about me vocabulary in standard Central Catalan. Meaning: I work as....",
-            "ex": "Treballo com a programador.",
+            "hint": "Use treballo de or treballo com a before a profession.",
+            "ex": "Treballo de programador.",
             "exEn": "I work as a programmer."
           },
           {
@@ -789,18 +789,18 @@ export const levels = [
           },
           {
             "id": "about-me-007",
-            "ca": "No parlo bé el català",
+            "ca": "No parlo gaire bé el català",
             "en": "I don't speak Catalan well",
-            "hint": "Masculine nouns usually take el or un. Meaning: I don't speak Catalan well.",
-            "ex": "Ho sento, no parlo bé el català.",
+            "hint": "Gaire bé softens the phrase and sounds natural for learners.",
+            "ex": "Ho sento, no parlo gaire bé el català.",
             "exEn": "Sorry, I don't speak Catalan well."
           },
           {
             "id": "about-me-008",
-            "ca": "Parlo una mica català",
+            "ca": "Parlo una mica de català",
             "en": "I speak a little Catalan",
             "hint": "Feminine nouns usually take la or una; l' appears before many vowel sounds. Meaning: I speak a little Catalan.",
-            "ex": "Parlo una mica català.",
+            "ex": "Parlo una mica de català.",
             "exEn": "I speak a little Catalan."
           },
           {
@@ -813,10 +813,10 @@ export const levels = [
           },
           {
             "id": "about-me-010",
-            "ca": "si us plau, parla més lentament",
+            "ca": "Parla més a poc a poc, si us plau",
             "en": "Please speak more slowly",
-            "hint": "Feminine nouns usually take la or una; l' appears before many vowel sounds. Meaning: Please speak more slowly.",
-            "ex": "si us plau, parla més lentament.",
+            "hint": "A poc a poc is the natural phrase for slowly in this request.",
+            "ex": "Parla més a poc a poc, si us plau.",
             "exEn": "Please speak more slowly."
           },
           {
@@ -824,8 +824,8 @@ export const levels = [
             "ca": "No sóc d'aquí",
             "en": "I'm not from here",
             "hint": "Useful about me vocabulary in standard Central Catalan. Meaning: I'm not from here.",
-            "ex": "No sóc d'aquí, sóc un turista.",
-            "exEn": "I'm not from here, I'm a tourist."
+            "ex": "No soc d’aquí, soc turista.",
+            "exEn": "I’m not from here, I’m a tourist."
           },
           {
             "id": "about-me-012",
@@ -845,9 +845,9 @@ export const levels = [
           },
           {
             "id": "about-me-014",
-            "ca": "ho veig",
+            "ca": "Ho entenc",
             "en": "I understand",
-            "hint": "Useful about me vocabulary in standard Central Catalan. Meaning: I understand.",
+            "hint": "Ho entenc means “I understand it”; ho veig means “I see it”.",
             "ex": "Sí, ara ho entenc.",
             "exEn": "Yes, now I understand."
           },
@@ -869,18 +869,18 @@ export const levels = [
           },
           {
             "id": "about-me-017",
-            "ca": "el meu/el meu",
+            "ca": "el meu / la meva",
             "en": "my (m / f)",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: my (m / f).",
-            "ex": "Aquest és el meu telèfon.",
-            "exEn": "This is my phone."
+            "hint": "Use el meu before masculine nouns and la meva before feminine nouns.",
+            "ex": "Aquest és el meu telèfon i aquesta és la meva bossa.",
+            "exEn": "This is my phone and this is my bag."
           },
           {
             "id": "about-me-018",
-            "ca": "Que tingueu un bon dia!",
+            "ca": "Que tinguis un bon dia!",
             "en": "Have a nice day!",
-            "hint": "Masculine nouns usually take el or un. Meaning: Have a nice day!.",
-            "ex": "Gràcies, que tingueu un bon dia!",
+            "hint": "Tinguis is informal singular; tingui/tingueu are polite or plural forms.",
+            "ex": "Gràcies, que tinguis un bon dia!",
             "exEn": "Thanks, have a nice day!"
           },
           {
@@ -909,18 +909,18 @@ export const levels = [
         "cards": [
           {
             "id": "morning-routine-001",
-            "ca": "alarma",
+            "ca": "despertador",
             "en": "alarm clock",
-            "hint": "Useful morning routine vocabulary in standard Central Catalan. Meaning: alarm clock.",
+            "hint": "Despertador is an alarm clock; alarma is more general.",
             "ex": "El meu despertador sona a les set del matí.",
             "exEn": "My alarm clock rings at seven in the morning."
           },
           {
             "id": "morning-routine-002",
-            "ca": "despertar",
+            "ca": "despertar-se",
             "en": "to wake up",
-            "hint": "Useful morning routine vocabulary in standard Central Catalan. Meaning: to wake up.",
-            "ex": "Em llevo d'hora al matí.",
+            "hint": "Use the reflexive despertar-se for waking up.",
+            "ex": "Em desperto d’hora al matí.",
             "exEn": "I wake up early in the morning."
           },
           {
@@ -928,7 +928,7 @@ export const levels = [
             "ca": "aixecar-se",
             "en": "to get up",
             "hint": "Useful morning routine vocabulary in standard Central Catalan. Meaning: to get up.",
-            "ex": "Em llevo a les sis, però em llevo a dos quarts de set.",
+            "ex": "Em desperto a les sis, però m’aixeco a dos quarts de set.",
             "exEn": "I wake up at six, but I get up at half past six."
           },
           {
@@ -941,10 +941,10 @@ export const levels = [
           },
           {
             "id": "morning-routine-005",
-            "ca": "prendre una dutxa",
+            "ca": "dutxar-se",
             "en": "to take a shower",
-            "hint": "Feminine nouns usually take la or una; l' appears before many vowel sounds. Meaning: to take a shower.",
-            "ex": "Al matí acostumo a prendre una dutxa ràpida.",
+            "hint": "Dutxar-se is the everyday verb for taking a shower.",
+            "ex": "Al matí acostumo a dutxar-me ràpid.",
             "exEn": "In the morning, I usually take a quick shower."
           },
           {
@@ -965,9 +965,9 @@ export const levels = [
           },
           {
             "id": "morning-routine-008",
-            "ca": "vestit",
+            "ca": "vestir-se",
             "en": "to get dressed",
-            "hint": "Useful morning routine vocabulary in standard Central Catalan. Meaning: to get dressed.",
+            "hint": "Vestir-se is the reflexive verb “to get dressed”.",
             "ex": "Em dutxo i em vesteixo ràpidament.",
             "exEn": "I take a shower and get dressed quickly."
           },
@@ -1013,25 +1013,25 @@ export const levels = [
           },
           {
             "id": "morning-routine-014",
-            "ca": "en primer lloc",
+            "ca": "primer",
             "en": "first",
-            "hint": "Useful morning routine vocabulary in standard Central Catalan. Meaning: first.",
+            "hint": "Primer is the simple everyday word for first.",
             "ex": "Primer bec cafè i després menjo.",
             "exEn": "First I drink coffee, and then I eat."
           },
           {
             "id": "morning-routine-015",
-            "ca": "aleshores",
+            "ca": "després",
             "en": "then / later",
-            "hint": "Useful morning routine vocabulary in standard Central Catalan. Meaning: then / later.",
+            "hint": "Després is the common word for then or afterwards.",
             "ex": "Esmorzo i després em vesteixo.",
             "exEn": "I eat breakfast, and then I get dressed."
           },
           {
             "id": "morning-routine-016",
-            "ca": "pressa",
+            "ca": "tenir pressa",
             "en": "to be in a hurry",
-            "hint": "Useful morning routine vocabulary in standard Central Catalan. Meaning: to be in a hurry.",
+            "hint": "The full expression is tenir pressa, literally “to have hurry”.",
             "ex": "No tinc temps per esmorzar, tinc pressa per anar a treballar.",
             "exEn": "I don't have time for breakfast, I am in a hurry to work."
           },
@@ -1059,10 +1059,10 @@ export const levels = [
         "cards": [
           {
             "id": "public-transport-001",
-            "ca": "parar",
+            "ca": "parada",
             "en": "stop (bus / tram)",
-            "hint": "Useful public transport vocabulary in standard Central Catalan. Meaning: stop (bus / tram).",
-            "ex": "Baixo a la següent parada.",
+            "hint": "Parada is the noun for a bus, tram or metro stop.",
+            "ex": "Baixo a la parada següent.",
             "exEn": "I'm getting off at the next stop."
           },
           {
@@ -1075,11 +1075,11 @@ export const levels = [
           },
           {
             "id": "public-transport-003",
-            "ca": "M'agradaria un bitllet de 20 minuts",
-            "en": "A 20-minute ticket, please",
-            "hint": "Masculine nouns usually take el or un. Meaning: A 20-minute ticket, please.",
-            "ex": "Bon dia, voldria un bitllet de 20 minuts.",
-            "exEn": "Hello, a 20-minute ticket, please."
+            "ca": "Voldria un bitllet senzill",
+            "en": "A single ticket, please",
+            "hint": "Voldria is polite. A simple single ticket is more useful than a “20-minute ticket”.",
+            "ex": "Bon dia, voldria un bitllet senzill.",
+            "exEn": "Hello, a single ticket, please."
           },
           {
             "id": "public-transport-004",
@@ -1107,19 +1107,19 @@ export const levels = [
           },
           {
             "id": "public-transport-007",
-            "ca": "Pròxima parada",
+            "ca": "Propera parada",
             "en": "Next stop",
             "hint": "Useful public transport vocabulary in standard Central Catalan. Meaning: Next stop.",
-            "ex": "Propera parada: Plaça del Mercat.",
-            "exEn": "Next stop: the city centre."
+            "ex": "Propera parada: plaça de Catalunya.",
+            "exEn": "Next stop: Plaça de Catalunya."
           },
           {
             "id": "public-transport-008",
-            "ca": "Ho sento, me'n vaig",
+            "ca": "Disculpeu, baixo aquí",
             "en": "Excuse me, I'm getting off",
-            "hint": "Notice the Catalan past-time wording used for simple stories. Meaning: Excuse me, I'm getting off.",
-            "ex": "Ho sento, baixaré a la següent.",
-            "exEn": "Excuse me, I'm getting off at the next one."
+            "hint": "Use baixo when you are getting off public transport.",
+            "ex": "Disculpeu, baixo a la següent.",
+            "exEn": "Excuse me, I’m getting off at the next one."
           },
           {
             "id": "public-transport-009",
@@ -1134,16 +1134,16 @@ export const levels = [
             "ca": "metro",
             "en": "metro / underground",
             "hint": "Useful public transport vocabulary in standard Central Catalan. Meaning: metro / underground.",
-            "ex": "Agafo el metro a la feina cada dia.",
+            "ex": "Agafo el metro per anar a la feina cada dia.",
             "exEn": "I take the metro to work every day."
           },
           {
             "id": "public-transport-011",
-            "ca": "M'he de transferir",
+            "ca": "He de fer transbordament",
             "en": "I have to change lines",
-            "hint": "Useful public transport vocabulary in standard Central Catalan. Meaning: I have to change lines.",
-            "ex": "He de canviar a un altre tramvia.",
-            "exEn": "I have to change to another tram."
+            "hint": "Fer transbordament is the natural transport phrase for changing lines or vehicles.",
+            "ex": "He de fer transbordament a una altra línia.",
+            "exEn": "I have to change to another line."
           },
           {
             "id": "public-transport-012",
@@ -1155,9 +1155,9 @@ export const levels = [
           },
           {
             "id": "public-transport-013",
-            "ca": "El tramvia es retarda",
+            "ca": "El tramvia va amb retard",
             "en": "The tram is delayed",
-            "hint": "Masculine nouns usually take el or un. Meaning: The tram is delayed.",
+            "hint": "Va amb retard is the natural phrase for a delayed train, tram or bus.",
             "ex": "El meu tramvia fa tard avui.",
             "exEn": "My tram is delayed today."
           },
@@ -1171,9 +1171,9 @@ export const levels = [
           },
           {
             "id": "public-transport-015",
-            "ca": "Quan és el proper autobús?",
+            "ca": "Quan passa el proper autobús?",
             "en": "When is the next bus?",
-            "hint": "Masculine nouns usually take el or un. Meaning: When is the next bus?.",
+            "hint": "Quan passa...? is natural for asking when a bus or train comes.",
             "ex": "Disculpeu, quan és el proper autobús?",
             "exEn": "Excuse me, when is the next bus?"
           },
@@ -1187,17 +1187,17 @@ export const levels = [
           },
           {
             "id": "public-transport-017",
-            "ca": "Estic entrant/Estic sortint",
-            "en": "I'm getting on / getting off",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I'm getting on / getting off.",
+            "ca": "pujar / baixar",
+            "en": "to get on / get off",
+            "hint": "Use pujar for getting on and baixar for getting off public transport.",
             "ex": "Pujo al tramvia número 10.",
             "exEn": "I get on tram number 10."
           },
           {
             "id": "public-transport-018",
-            "ca": "plataforma",
+            "ca": "andana",
             "en": "platform",
-            "hint": "Useful public transport vocabulary in standard Central Catalan. Meaning: platform.",
+            "hint": "Andana is the Catalan word for a train or metro platform.",
             "ex": "El tren surt de l'andana dos.",
             "exEn": "The train leaves from platform two."
           },
@@ -1211,19 +1211,19 @@ export const levels = [
           },
           {
             "id": "public-transport-020",
-            "ca": "Em vaig perdre",
+            "ca": "M’he perdut",
             "en": "I'm lost",
-            "hint": "Notice the Catalan past-time wording used for simple stories. Meaning: I'm lost.",
-            "ex": "Crec que estic perdut, on és la parada?",
+            "hint": "M’he perdut means “I’m lost” or “I got lost”.",
+            "ex": "Crec que m’he perdut; on és la parada?",
             "exEn": "I think I'm lost, where's the stop?"
           },
           {
             "id": "public-transport-021",
-            "ca": "demanar aturada",
-            "en": "request stop",
-            "hint": "Useful public transport vocabulary in standard Central Catalan. Meaning: request stop.",
-            "ex": "És una petició d'aturada, premeu el botó.",
-            "exEn": "It's a request stop, press the button."
+            "ca": "parada sol·licitada",
+            "en": "stop requested",
+            "hint": "Parada sol·licitada is the sign you may see after pressing the stop button.",
+            "ex": "Parada sol·licitada: baixarem a la següent.",
+            "exEn": "Stop requested: we’ll get off at the next one."
           },
           {
             "id": "public-transport-022",
@@ -1259,27 +1259,27 @@ export const levels = [
           },
           {
             "id": "pharmacy-002",
-            "ca": "medicament/medicina",
+            "ca": "medicament",
             "en": "medicine",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: medicine.",
+            "hint": "Medicament is the standard word for medicine as a product; medicina can mean medicine as a field.",
             "ex": "Necessito medicaments per a la meva gola.",
             "exEn": "I need medicine for my throat."
           },
           {
             "id": "pharmacy-003",
-            "ca": "prescripció",
+            "ca": "recepta",
             "en": "prescription",
-            "hint": "Useful at the pharmacy vocabulary in standard Central Catalan. Meaning: prescription.",
-            "ex": "Això està amb recepta?",
+            "hint": "Recepta is used for both a recipe and a medical prescription; context makes it clear.",
+            "ex": "Això va amb recepta?",
             "exEn": "Is this prescription-only?"
           },
           {
             "id": "pharmacy-004",
-            "ca": "sense recepta mèdica",
+            "ca": "sense recepta",
             "en": "over the counter",
-            "hint": "Useful at the pharmacy vocabulary in standard Central Catalan. Meaning: over the counter.",
-            "ex": "Puc aconseguir-ho al taulell?",
-            "exEn": "Can I get this without a prescription?"
+            "hint": "Sense recepta means without a prescription.",
+            "ex": "Ho puc comprar sense recepta?",
+            "exEn": "Can I buy this without a prescription?"
           },
           {
             "id": "pharmacy-005",
@@ -1315,9 +1315,9 @@ export const levels = [
           },
           {
             "id": "pharmacy-009",
-            "ca": "fred",
+            "ca": "refredat",
             "en": "a cold",
-            "hint": "Useful at the pharmacy vocabulary in standard Central Catalan. Meaning: a cold.",
+            "hint": "Refredat is a cold; fred means cold as a temperature or feeling.",
             "ex": "Crec que tinc un refredat.",
             "exEn": "I think I have a cold."
           },
@@ -1331,11 +1331,11 @@ export const levels = [
           },
           {
             "id": "pharmacy-011",
-            "ca": "rinitis",
+            "ca": "mocs / nas tapat",
             "en": "runny / blocked nose",
-            "hint": "Useful at the pharmacy vocabulary in standard Central Catalan. Meaning: runny / blocked nose.",
-            "ex": "Tinc secreció nasal i tos.",
-            "exEn": "I have a runny nose and a cough."
+            "hint": "Mocs are mucus/runny nose; nas tapat is a blocked nose.",
+            "ex": "Tinc mocs i el nas tapat.",
+            "exEn": "I have a runny and blocked nose."
           },
           {
             "id": "pharmacy-012",
@@ -1355,10 +1355,10 @@ export const levels = [
           },
           {
             "id": "pharmacy-014",
-            "ca": "llesca",
+            "ca": "tireta",
             "en": "plaster / band-aid",
-            "hint": "Useful at the pharmacy vocabulary in standard Central Catalan. Meaning: plaster / band-aid.",
-            "ex": "Tens guixos?",
+            "hint": "Tireta is the common word for a plaster or band-aid.",
+            "ex": "Teniu tiretes?",
             "exEn": "Do you have any plasters?"
           },
           {
@@ -1374,7 +1374,7 @@ export const levels = [
             "ca": "Amb quina freqüència?",
             "en": "How often?",
             "hint": "Useful at the pharmacy vocabulary in standard Central Catalan. Meaning: How often?.",
-            "ex": "Amb quina freqüència hauríeu de prendre aquest medicament?",
+            "ex": "Cada quant he de prendre aquest medicament?",
             "exEn": "How often should I take this medicine?"
           },
           {
@@ -1382,8 +1382,8 @@ export const levels = [
             "ca": "després de menjar",
             "en": "after meals",
             "hint": "Useful at the pharmacy vocabulary in standard Central Catalan. Meaning: after meals.",
-            "ex": "Prendre després de dinar.",
-            "exEn": "Take after meals."
+            "ex": "Preneu-ho després de menjar.",
+            "exEn": "Take it after meals."
           },
           {
             "id": "pharmacy-018",
@@ -1411,11 +1411,11 @@ export const levels = [
           },
           {
             "id": "pharmacy-021",
-            "ca": "M'agradaria demanar un rebut",
+            "ca": "Un tiquet, si us plau",
             "en": "A receipt, please",
-            "hint": "Masculine nouns usually take el or un. Meaning: A receipt, please.",
-            "ex": "M'agradaria demanar un rebut.",
-            "exEn": "A receipt, please."
+            "hint": "In shops, tiquet is the common receipt; rebut is more formal.",
+            "ex": "Em podeu fer un tiquet, si us plau?",
+            "exEn": "Could I have a receipt, please?"
           }
         ]
       },
@@ -1427,9 +1427,9 @@ export const levels = [
         "cards": [
           {
             "id": "paperwork-001",
-            "ca": "oficina",
+            "ca": "oficina / administració",
             "en": "office (government)",
-            "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: office (government).",
+            "hint": "Oficina is general; administració is useful for government paperwork.",
             "ex": "He d'anar a l'oficina.",
             "exEn": "I have to go to the office."
           },
@@ -1443,9 +1443,9 @@ export const levels = [
           },
           {
             "id": "paperwork-003",
-            "ca": "aplicació",
+            "ca": "sol·licitud",
             "en": "application",
-            "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: application.",
+            "hint": "Sol·licitud is an application/request form; aplicació usually means an app.",
             "ex": "He de presentar una sol·licitud.",
             "exEn": "I have to submit an application."
           },
@@ -1454,7 +1454,7 @@ export const levels = [
             "ca": "presentar una sol·licitud",
             "en": "to submit an application",
             "hint": "Feminine nouns usually take la or una; l' appears before many vowel sounds. Meaning: to submit an application.",
-            "ex": "On puc sol·licitar?",
+            "ex": "On puc presentar la sol·licitud?",
             "exEn": "Where can I submit the application?"
           },
           {
@@ -1462,8 +1462,8 @@ export const levels = [
             "ca": "document",
             "en": "document",
             "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: document.",
-            "ex": "si us plau, mostra el document.",
-            "exEn": "Please show some ID."
+            "ex": "Mostreu el document, si us plau.",
+            "exEn": "Please show the document."
           },
           {
             "id": "paperwork-006",
@@ -1478,31 +1478,31 @@ export const levels = [
             "ca": "passaport",
             "en": "passport",
             "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: passport.",
-            "ex": "Estic demanant un passaport.",
+            "ex": "El passaport, si us plau.",
             "exEn": "Your passport, please."
           },
           {
             "id": "paperwork-008",
             "ca": "targeta de residència",
             "en": "residence card",
-            "hint": "Use euros and cèntims for prices in Catalonia. Meaning: residence card.",
+            "hint": "Targeta de residència is useful for residence paperwork; exact requirements depend on your situation.",
             "ex": "Estic esperant la meva targeta de residència.",
             "exEn": "I'm waiting for my residence card."
           },
           {
             "id": "paperwork-009",
-            "ca": "forma",
+            "ca": "formulari",
             "en": "form",
-            "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: form.",
+            "hint": "Formulari is a form you fill in; forma means shape or manner.",
             "ex": "Com omplir aquest formulari?",
             "exEn": "How do I fill in this form?"
           },
           {
             "id": "paperwork-010",
-            "ca": "per omplir",
+            "ca": "omplir",
             "en": "to fill in",
             "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: to fill in.",
-            "ex": "si us plau, omple el formulari.",
+            "ex": "Ompliu el formulari, si us plau.",
             "exEn": "Please fill in the form."
           },
           {
@@ -1510,24 +1510,24 @@ export const levels = [
             "ca": "signatura",
             "en": "signature",
             "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: signature.",
-            "ex": "si us plau, signa aquí.",
+            "ex": "Signi aquí, si us plau.",
             "exEn": "Your signature here, please."
           },
           {
             "id": "paperwork-012",
-            "ca": "signe",
+            "ca": "signar",
             "en": "to sign",
-            "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: to sign.",
+            "hint": "Signar is the verb; signatura is the noun “signature”.",
             "ex": "On he de signar?",
             "exEn": "Where do I sign?"
           },
           {
             "id": "paperwork-013",
-            "ca": "termini",
+            "ca": "termini / cita",
             "en": "deadline / appointment date",
-            "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: deadline / appointment date.",
+            "hint": "Termini is a deadline; cita is an appointment.",
             "ex": "Quin és el termini?",
-            "exEn": "What's the deadline?"
+            "exEn": "What’s the deadline?"
           },
           {
             "id": "paperwork-014",
@@ -1547,25 +1547,25 @@ export const levels = [
           },
           {
             "id": "paperwork-016",
-            "ca": "bitllet",
+            "ca": "número",
             "en": "queue ticket (number)",
-            "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: queue ticket (number).",
-            "ex": "si us plau, agafeu el número.",
+            "hint": "At public offices you often take a número for the queue.",
+            "ex": "Agafeu número, si us plau.",
             "exEn": "Please take a queue ticket."
           },
           {
             "id": "paperwork-017",
-            "ca": "finestra",
+            "ca": "finestreta",
             "en": "service window / counter",
-            "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: service window / counter.",
-            "ex": "si us plau, aneu a la finestra número tres.",
+            "hint": "Finestreta is a service window or counter in an office.",
+            "ex": "Aneu a la finestreta número tres, si us plau.",
             "exEn": "Please go to window number three."
           },
           {
             "id": "paperwork-018",
-            "ca": "quota",
+            "ca": "taxa",
             "en": "fee / charge",
-            "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: fee / charge.",
+            "hint": "Taxa is the usual word for an official fee.",
             "ex": "Quina és la quota?",
             "exEn": "What's the fee?"
           },
@@ -1574,15 +1574,15 @@ export const levels = [
             "ca": "certificat",
             "en": "certificate / official confirmation",
             "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: certificate / official confirmation.",
-            "ex": "Necessito un certificat de treball.",
-            "exEn": "I need a certificate from work."
+            "ex": "Necessito un certificat d’empadronament.",
+            "exEn": "I need a registration certificate."
           },
           {
             "id": "paperwork-020",
             "ca": "Necessito...?",
             "en": "Do I need...?",
             "hint": "Useful paperwork vocabulary in standard Central Catalan. Meaning: Do I need...?.",
-            "ex": "Necessito traducció?",
+            "ex": "Necessito una traducció?",
             "exEn": "Do I need a translation?"
           }
         ]
@@ -1598,7 +1598,7 @@ export const levels = [
             "ca": "taula per a dues persones",
             "en": "a table for two",
             "hint": "Feminine nouns usually take la or una; l' appears before many vowel sounds. Meaning: a table for two.",
-            "ex": "M'agradaria una taula per a dos, si us plau.",
+            "ex": "Voldria una taula per a dues persones, si us plau.",
             "exEn": "A table for two, please."
           },
           {
@@ -1611,19 +1611,19 @@ export const levels = [
           },
           {
             "id": "restaurant-003",
-            "ca": "targeta/menú",
+            "ca": "carta / menú",
             "en": "menu",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: menu.",
-            "ex": "M'agradaria una targeta, si us plau.",
+            "hint": "La carta is the restaurant menu; menú often means a fixed-price set menu.",
+            "ex": "La carta, si us plau.",
             "exEn": "The menu, please."
           },
           {
             "id": "restaurant-004",
-            "ca": "aperitiu",
+            "ca": "entrant",
             "en": "starter / appetiser",
-            "hint": "Useful at the restaurant vocabulary in standard Central Catalan. Meaning: starter / appetiser.",
-            "ex": "Per un aperitiu, m'agradaria una mica de sopa.",
-            "exEn": "For a starter, I'll have soup."
+            "hint": "Entrant is the common word for starter; aperitiu is closer to aperitif/snack.",
+            "ex": "D’entrant, voldria una sopa.",
+            "exEn": "For a starter, I’ll have soup."
           },
           {
             "id": "restaurant-005",
@@ -1638,7 +1638,7 @@ export const levels = [
             "ca": "sopa",
             "en": "soup",
             "hint": "Useful at the restaurant vocabulary in standard Central Catalan. Meaning: soup.",
-            "ex": "M'agradaria una mica de sopa de tomàquet.",
+            "ex": "Voldria una sopa de tomàquet.",
             "exEn": "Tomato soup, please."
           },
           {
@@ -1654,16 +1654,16 @@ export const levels = [
             "ca": "Per mi...",
             "en": "For me... (ordering)",
             "hint": "Useful at the restaurant vocabulary in standard Central Catalan. Meaning: For me... (ordering).",
-            "ex": "Pollastre per a mi, si us plau.",
+            "ex": "Per mi, el pollastre, si us plau.",
             "exEn": "The chicken for me, please."
           },
           {
             "id": "restaurant-009",
-            "ca": "Sóc vegetarià",
+            "ca": "Soc vegetarià / vegetariana",
             "en": "I'm vegetarian",
-            "hint": "Useful at the restaurant vocabulary in standard Central Catalan. Meaning: I'm vegetarian.",
-            "ex": "Sóc vegetarià.",
-            "exEn": "I'm vegetarian."
+            "hint": "Vegetarià is masculine; vegetariana is feminine.",
+            "ex": "Soc vegetariana.",
+            "exEn": "I’m vegetarian."
           },
           {
             "id": "restaurant-010",
@@ -1686,7 +1686,7 @@ export const levels = [
             "ca": "Puc demanar...?",
             "en": "Could I have...?",
             "hint": "Useful at the restaurant vocabulary in standard Central Catalan. Meaning: Could I have...?.",
-            "ex": "Puc prendre una mica d'aigua si us plau?",
+            "ex": "Em podeu portar una mica d’aigua, si us plau?",
             "exEn": "Could I have some water?"
           },
           {
@@ -1707,10 +1707,10 @@ export const levels = [
           },
           {
             "id": "restaurant-015",
-            "ca": "Bill, si us plau",
+            "ca": "El compte, si us plau",
             "en": "The bill, please",
-            "hint": "This is a polite everyday form in Catalonia. Meaning: The bill, please.",
-            "ex": "M'agradaria la factura, si us plau.",
+            "hint": "El compte is the normal phrase for the bill in a restaurant.",
+            "ex": "El compte, si us plau.",
             "exEn": "The bill, please."
           },
           {
@@ -1739,18 +1739,18 @@ export const levels = [
           },
           {
             "id": "restaurant-019",
-            "ca": "per anar",
+            "ca": "per emportar",
             "en": "to take away",
             "hint": "Useful at the restaurant vocabulary in standard Central Catalan. Meaning: to take away.",
-            "ex": "Puc portar això per anar?",
+            "ex": "M’ho puc emportar?",
             "exEn": "Can I take this away?"
           },
           {
             "id": "restaurant-020",
-            "ca": "Gaudeix del teu àpat",
+            "ca": "Bon profit",
             "en": "Enjoy your meal",
-            "hint": "Masculine nouns usually take el or un. Meaning: Enjoy your meal.",
-            "ex": "Gaudeix del teu àpat!",
+            "hint": "Bon profit is the natural Catalan phrase for “enjoy your meal”.",
+            "ex": "Bon profit!",
             "exEn": "Enjoy your meal!"
           }
         ]
@@ -1763,9 +1763,9 @@ export const levels = [
         "cards": [
           {
             "id": "housing-001",
-            "ca": "apartament",
+            "ca": "pis / apartament",
             "en": "flat / apartment",
-            "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: flat / apartment.",
+            "hint": "Pis is very common in Catalonia for a flat; apartament is also understood.",
             "ex": "Llogo un pis al centre.",
             "exEn": "I rent a flat in the centre."
           },
@@ -1779,10 +1779,10 @@ export const levels = [
           },
           {
             "id": "housing-003",
-            "ca": "lloguer",
+            "ca": "despeses de comunitat",
             "en": "building service charge",
-            "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: building service charge.",
-            "ex": "El lloguer és separat.",
+            "hint": "Despeses de comunitat are building/community charges separate from rent.",
+            "ex": "Les despeses de comunitat van a part.",
             "exEn": "The service charge is separate."
           },
           {
@@ -1795,9 +1795,9 @@ export const levels = [
           },
           {
             "id": "housing-005",
-            "ca": "acord",
+            "ca": "contracte",
             "en": "contract",
-            "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: contract.",
+            "hint": "Contracte is the normal word for a rental contract.",
             "ex": "He de signar un contracte.",
             "exEn": "I have to sign the contract."
           },
@@ -1819,10 +1819,10 @@ export const levels = [
           },
           {
             "id": "housing-008",
-            "ca": "actual",
+            "ca": "electricitat",
             "en": "electricity",
-            "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: electricity.",
-            "ex": "No tinc electricitat a la cuina.",
+            "hint": "Electricitat is electricity; actual means current/present.",
+            "ex": "No hi ha electricitat a la cuina.",
             "exEn": "There's no electricity in the kitchen."
           },
           {
@@ -1843,7 +1843,7 @@ export const levels = [
           },
           {
             "id": "housing-011",
-            "ca": "Internet",
+            "ca": "internet",
             "en": "internet",
             "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: internet.",
             "ex": "Internet està inclòs en el preu?",
@@ -1862,16 +1862,16 @@ export const levels = [
             "ca": "Alguna cosa no funciona",
             "en": "Something isn't working",
             "hint": "Feminine nouns usually take la or una; l' appears before many vowel sounds. Meaning: Something isn't working.",
-            "ex": "Ho sento, alguna cosa no funciona.",
+            "ex": "Disculpa, alguna cosa no funciona.",
             "exEn": "Sorry, something isn't working."
           },
           {
             "id": "housing-014",
-            "ca": "es va trencar",
+            "ca": "està espatllat",
             "en": "it broke / is broken",
-            "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: it broke / is broken.",
-            "ex": "El forn està trencat.",
-            "exEn": "The oven has broken."
+            "hint": "Està espatllat means something is broken or not working.",
+            "ex": "El forn està espatllat.",
+            "exEn": "The oven is broken."
           },
           {
             "id": "housing-015",
@@ -1899,9 +1899,9 @@ export const levels = [
           },
           {
             "id": "housing-018",
-            "ca": "dormitori",
+            "ca": "habitació",
             "en": "bedroom",
-            "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: bedroom.",
+            "hint": "Habitació is the everyday word for a bedroom; dormitori is also correct but less common.",
             "ex": "L'apartament té dos dormitoris.",
             "exEn": "The flat has two bedrooms."
           },
@@ -1924,8 +1924,8 @@ export const levels = [
           {
             "id": "housing-021",
             "ca": "habitació",
-            "en": "room",
-            "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: room.",
+            "en": "room / bedroom",
+            "hint": "Habitació can mean a room, and often a bedroom in housing ads.",
             "ex": "Busco un apartament de dues habitacions.",
             "exEn": "I'm looking for a two-room flat."
           },
@@ -1939,9 +1939,9 @@ export const levels = [
           },
           {
             "id": "housing-023",
-            "ca": "sala",
+            "ca": "passadís",
             "en": "hallway / entrance hall",
-            "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: hallway / entrance hall.",
+            "hint": "Passadís is a hallway; sala usually means room or living room.",
             "ex": "Deixa les teves sabates al passadís.",
             "exEn": "Leave your shoes in the hallway."
           },
@@ -1995,7 +1995,7 @@ export const levels = [
           },
           {
             "id": "housing-030",
-            "ca": "Armari",
+            "ca": "armari",
             "en": "wardrobe",
             "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: wardrobe.",
             "ex": "Penja l'abric a l'armari.",
@@ -2005,17 +2005,17 @@ export const levels = [
             "id": "housing-031",
             "ca": "nevera",
             "en": "fridge",
-            "hint": "Notice the Catalan past-time wording used for simple stories. Meaning: fridge.",
+            "hint": "Nevera is the common word for fridge in Catalonia.",
             "ex": "La llet està a la nevera.",
             "exEn": "The milk is in the fridge."
           },
           {
             "id": "housing-032",
-            "ca": "estufa",
+            "ca": "fogons",
             "en": "cooker / stove",
-            "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: cooker / stove.",
-            "ex": "Encenem el fogó i cuinaré la pasta.",
-            "exEn": "Turn on the stove, I'll cook pasta."
+            "hint": "Fogons are stove burners; cuina can also mean the whole kitchen.",
+            "ex": "Encén els fogons i cuinaré la pasta.",
+            "exEn": "Turn on the stove, I’ll cook pasta."
           },
           {
             "id": "housing-033",
@@ -2038,16 +2038,16 @@ export const levels = [
             "ca": "finestra",
             "en": "window",
             "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: window.",
-            "ex": "Obre la finestra, està atapeït.",
-            "exEn": "Open the window, it's stuffy."
+            "ex": "Obre la finestra, que l’aire està carregat.",
+            "exEn": "Open the window, it’s stuffy."
           },
           {
             "id": "housing-036",
-            "ca": "llum",
+            "ca": "llum / llumeta",
             "en": "lamp / light",
-            "hint": "Useful housing vocabulary in standard Central Catalan. Meaning: lamp / light.",
-            "ex": "El llum del dormitori es va cremar.",
-            "exEn": "The lamp in the bedroom has burnt out."
+            "hint": "Llum can mean light or lamp; bombeta is the light bulb.",
+            "ex": "La bombeta del dormitori s’ha fos.",
+            "exEn": "The bedroom light bulb has burnt out."
           }
         ]
       },
@@ -2078,32 +2078,32 @@ export const levels = [
             "ca": "sovint / poques vegades",
             "en": "often / rarely",
             "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: often / rarely.",
-            "ex": "Llegeixo molt, però rarament veig la televisió.",
+            "ex": "Llegeixo sovint, però poques vegades miro la televisió.",
             "exEn": "I often read, but I rarely watch TV."
           },
           {
             "id": "daily-routine-004",
-            "ca": "anar a casa",
+            "ca": "tornar a casa",
             "en": "to return home",
-            "hint": "Useful daily life and routine vocabulary in standard Central Catalan. Meaning: to return home.",
-            "ex": "Normalment torno a casa després de les 4 de la tarda.",
+            "hint": "Tornar a casa means to return home.",
+            "ex": "Normalment torno a casa després de les quatre de la tarda.",
             "exEn": "I usually return home after 4 PM."
           },
           {
             "id": "daily-routine-005",
-            "ca": "per netejar",
+            "ca": "netejar",
             "en": "to clean",
             "hint": "Useful daily life and routine vocabulary in standard Central Catalan. Meaning: to clean.",
-            "ex": "Dissabte neto tot l'apartament.",
+            "ex": "Dissabte netejo tot el pis.",
             "exEn": "On Saturday I clean the whole flat."
           },
           {
             "id": "daily-routine-006",
-            "ca": "rentar",
+            "ca": "fer la bugada",
             "en": "to do laundry",
-            "hint": "Useful daily life and routine vocabulary in standard Central Catalan. Meaning: to do laundry.",
-            "ex": "He de rentar la roba avui.",
-            "exEn": "I have to wash clothes today."
+            "hint": "Fer la bugada is the natural phrase for doing laundry.",
+            "ex": "He de fer la bugada avui.",
+            "exEn": "I have to do laundry today."
           },
           {
             "id": "daily-routine-007",
@@ -2118,7 +2118,7 @@ export const levels = [
             "ca": "anar a dormir",
             "en": "to go to sleep",
             "hint": "Useful daily life and routine vocabulary in standard Central Catalan. Meaning: to go to sleep.",
-            "ex": "Me'n vaig al llit cap a la mitjanit.",
+            "ex": "Me’n vaig a dormir cap a la mitjanit.",
             "exEn": "I go to sleep around midnight."
           },
           {
@@ -2131,10 +2131,10 @@ export const levels = [
           },
           {
             "id": "daily-routine-010",
-            "ca": "els dies laborables",
+            "ca": "entre setmana",
             "en": "on weekdays",
-            "hint": "Useful daily life and routine vocabulary in standard Central Catalan. Meaning: on weekdays.",
-            "ex": "Estic molt ocupat els dies feiners.",
+            "hint": "Entre setmana means on weekdays; dies feiners is also correct.",
+            "ex": "Estic molt ocupat entre setmana.",
             "exEn": "On weekdays I am very busy."
           },
           {
@@ -2142,7 +2142,7 @@ export const levels = [
             "ca": "horari",
             "en": "schedule",
             "hint": "Useful daily life and routine vocabulary in standard Central Catalan. Meaning: schedule.",
-            "ex": "La meva agenda és molt ajustada.",
+            "ex": "Tinc l’horari molt ajustat.",
             "exEn": "My schedule is very tight."
           },
           {
@@ -2150,8 +2150,8 @@ export const levels = [
             "ca": "tasques domèstiques",
             "en": "chores",
             "hint": "Useful daily life and routine vocabulary in standard Central Catalan. Meaning: chores.",
-            "ex": "No m'agraden les tasques de casa.",
-            "exEn": "I don't like household chores."
+            "ex": "No m’agraden les feines de casa.",
+            "exEn": "I don’t like household chores."
           }
         ]
       },
@@ -2195,10 +2195,10 @@ export const levels = [
           },
           {
             "id": "home-family-005",
-            "ca": "matrimoni",
+            "ca": "parella casada / matrimoni",
             "en": "married couple / marriage",
-            "hint": "Useful home and family vocabulary in standard Central Catalan. Meaning: married couple / marriage.",
-            "ex": "Són una parella feliçment casada.",
+            "hint": "Parella casada is a married couple; matrimoni is marriage or a married couple.",
+            "ex": "Són una parella casada molt feliç.",
             "exEn": "They are a happy married couple."
           },
           {
@@ -2219,7 +2219,7 @@ export const levels = [
           },
           {
             "id": "home-family-008",
-            "ca": "Armari",
+            "ca": "armari",
             "en": "wardrobe",
             "hint": "Useful home and family vocabulary in standard Central Catalan. Meaning: wardrobe.",
             "ex": "El meu armari està ple de roba.",
@@ -2237,7 +2237,7 @@ export const levels = [
             "id": "home-family-010",
             "ca": "nevera",
             "en": "fridge",
-            "hint": "Notice the Catalan past-time wording used for simple stories. Meaning: fridge.",
+            "hint": "Nevera is the common word for fridge in Catalonia.",
             "ex": "No hi ha llet a la nevera.",
             "exEn": "There is no milk in the fridge."
           },
@@ -2246,7 +2246,7 @@ export const levels = [
             "ca": "rentadora",
             "en": "washing machine",
             "hint": "Useful home and family vocabulary in standard Central Catalan. Meaning: washing machine.",
-            "ex": "La rentadora es va trencar de nou.",
+            "ex": "La rentadora s’ha tornat a espatllar.",
             "exEn": "The washing machine broke again."
           },
           {
@@ -2262,16 +2262,16 @@ export const levels = [
             "ca": "aspiradora",
             "en": "vacuum cleaner",
             "hint": "Useful home and family vocabulary in standard Central Catalan. Meaning: vacuum cleaner.",
-            "ex": "On vas amagar l'aspiradora?",
-            "exEn": "Where did you hide the vacuum?"
+            "ex": "On has guardat l’aspiradora?",
+            "exEn": "Where did you put the vacuum cleaner?"
           },
           {
             "id": "home-family-014",
-            "ca": "moure's",
+            "ca": "mudar-se",
             "en": "moving house",
-            "hint": "Useful home and family vocabulary in standard Central Catalan. Meaning: moving house.",
-            "ex": "Moure's és molt estrès.",
-            "exEn": "Moving house is a big stress."
+            "hint": "Mudar-se means to move house; moure’s means to move physically.",
+            "ex": "Mudar-se és molt estressant.",
+            "exEn": "Moving house is very stressful."
           }
         ]
       },
@@ -2294,14 +2294,14 @@ export const levels = [
             "ca": "dentista",
             "en": "dentist",
             "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: dentist.",
-            "ex": "Em fa mal la dent, vaig al dentista.",
-            "exEn": "My tooth hurts, I'm going to the dentist."
+            "ex": "Em fa mal un queixal, vaig al dentista.",
+            "exEn": "My tooth hurts, I’m going to the dentist."
           },
           {
             "id": "health-body-003",
-            "ca": "clínica",
+            "ca": "CAP / clínica",
             "en": "clinic / health centre",
-            "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: clinic / health centre.",
+            "hint": "CAP is the public primary care centre in Catalonia; clínica is a clinic.",
             "ex": "La clínica està oberta fins a les 6 de la tarda.",
             "exEn": "The clinic is open until 6 PM."
           },
@@ -2310,14 +2310,14 @@ export const levels = [
             "ca": "prova",
             "en": "examination / test",
             "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: examination / test.",
-            "ex": "El metge va ordenar proves addicionals.",
-            "exEn": "The doctor ordered additional tests."
+            "ex": "El metge va demanar més proves.",
+            "exEn": "The doctor ordered more tests."
           },
           {
             "id": "health-body-005",
-            "ca": "derivació",
+            "ca": "derivació / volant",
             "en": "referral",
-            "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: referral.",
+            "hint": "Derivació or volant can be used for a medical referral, depending on context.",
             "ex": "Tinc una derivació a un especialista.",
             "exEn": "I have a referral to a specialist."
           },
@@ -2331,7 +2331,7 @@ export const levels = [
           },
           {
             "id": "health-body-007",
-            "ca": "Panxa",
+            "ca": "panxa",
             "en": "stomach / belly",
             "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: stomach / belly.",
             "ex": "No puc menjar, em fa mal la panxa.",
@@ -2339,17 +2339,17 @@ export const levels = [
           },
           {
             "id": "health-body-008",
-            "ca": "enrere",
+            "ca": "esquena",
             "en": "back",
-            "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: back.",
-            "ex": "Em fa mal l'esquena d'estar assegut.",
+            "hint": "Esquena is your back; enrere means backwards.",
+            "ex": "Em fa mal l’esquena d’estar assegut.",
             "exEn": "My back hurts from sitting."
           },
           {
             "id": "health-body-009",
-            "ca": "mà",
+            "ca": "braç / mà",
             "en": "arm / hand",
-            "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: arm / hand.",
+            "hint": "Braç is arm and mà is hand.",
             "ex": "Em vaig trencar el braç dret.",
             "exEn": "I broke my right arm."
           },
@@ -2375,7 +2375,7 @@ export const levels = [
             "en": "blood",
             "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: blood.",
             "ex": "Tinc por que em treguin sang.",
-            "exEn": "I'm afraid of drawing blood."
+            "exEn": "I’m afraid of having blood drawn."
           },
           {
             "id": "health-body-013",
@@ -2406,7 +2406,7 @@ export const levels = [
             "ca": "nas",
             "en": "nose",
             "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: nose.",
-            "ex": "Tinc secreció nasal i un nas tapat.",
+            "ex": "Tinc mocs i el nas tapat.",
             "exEn": "I have a runny and blocked nose."
           },
           {
@@ -2467,10 +2467,10 @@ export const levels = [
           },
           {
             "id": "health-body-024",
-            "ca": "braç",
+            "ca": "espatlla",
             "en": "shoulder",
-            "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: shoulder.",
-            "ex": "Porto la meva bossa a una espatlla.",
+            "hint": "Espatlla is shoulder; braç is arm.",
+            "ex": "Porto la bossa a una espatlla.",
             "exEn": "I carry the bag on one shoulder."
           },
           {
@@ -2499,11 +2499,11 @@ export const levels = [
           },
           {
             "id": "health-body-028",
-            "ca": "millorar",
+            "ca": "posar-se bo",
             "en": "to get well",
-            "hint": "Useful health and body vocabulary in standard Central Catalan. Meaning: to get well.",
-            "ex": "Preneu els vostres medicaments i milloreu ràpidament!",
-            "exEn": "Take your medicine and get well soon!"
+            "hint": "Posar-se bo means to get well; millorar means to improve.",
+            "ex": "Pren el medicament i posa’t bo aviat!",
+            "exEn": "Take the medicine and get well soon!"
           }
         ]
       },
@@ -2547,7 +2547,7 @@ export const levels = [
           },
           {
             "id": "food-shopping-005",
-            "ca": "per cuinar",
+            "ca": "cuinar",
             "en": "to cook",
             "hint": "Useful food and shopping vocabulary in standard Central Catalan. Meaning: to cook.",
             "ex": "M'encanta cuinar els caps de setmana.",
@@ -2555,34 +2555,34 @@ export const levels = [
           },
           {
             "id": "food-shopping-006",
-            "ca": "fregir",
+            "ca": "fregir / sofregir",
             "en": "to fry",
-            "hint": "Useful food and shopping vocabulary in standard Central Catalan. Meaning: to fry.",
+            "hint": "Fregir is to fry; sofregir is to gently fry/sauté, common in Catalan cooking.",
             "ex": "Heu de sofregir la ceba en una paella.",
             "exEn": "You need to fry the onion in a pan."
           },
           {
             "id": "food-shopping-007",
-            "ca": "cinc",
+            "ca": "coure al forn",
             "en": "to bake",
-            "hint": "Useful food and shopping vocabulary in standard Central Catalan. Meaning: to bake.",
-            "ex": "Sovint faig pa a casa.",
+            "hint": "Coure al forn means to bake; cinc means five.",
+            "ex": "Sovint faig pa al forn a casa.",
             "exEn": "I often bake bread at home."
           },
           {
             "id": "food-shopping-008",
-            "ca": "mercat/mercat",
+            "ca": "mercat",
             "en": "farmer's market",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: farmer's market.",
+            "hint": "Mercat is the everyday word for a food market.",
             "ex": "Compro verdures al mercat.",
             "exEn": "I buy vegetables at the market."
           },
           {
             "id": "food-shopping-009",
-            "ca": "verduleria",
+            "ca": "fruiteria / verduleria",
             "en": "greengrocer's",
-            "hint": "Useful food and shopping vocabulary in standard Central Catalan. Meaning: greengrocer's.",
-            "ex": "Vaig a la botiga de queviures a comprar tomàquets.",
+            "hint": "Fruiteria and verduleria are common words for shops selling fruit and vegetables.",
+            "ex": "Vaig a la fruiteria a comprar tomàquets.",
             "exEn": "I'm going to the greengrocer for tomatoes."
           },
           {
@@ -2622,7 +2622,7 @@ export const levels = [
             "ca": "aeroport",
             "en": "airport",
             "hint": "Useful travel and holidays vocabulary in standard Central Catalan. Meaning: airport.",
-            "ex": "Estem agafant un taxi fins a l'aeroport.",
+            "ex": "Agafem un taxi fins a l’aeroport.",
             "exEn": "We are taking a taxi to the airport."
           },
           {
@@ -2662,15 +2662,15 @@ export const levels = [
             "ca": "bitllet d'avió",
             "en": "flight ticket",
             "hint": "Useful travel and holidays vocabulary in standard Central Catalan. Meaning: flight ticket.",
-            "ex": "Vaig comprar bitllets d'avió a Espanya.",
-            "exEn": "I bought flight tickets to Spain."
+            "ex": "Vaig comprar bitllets d’avió per anar a Mallorca.",
+            "exEn": "I bought flight tickets to Mallorca."
           },
           {
             "id": "travel-holidays-007",
-            "ca": "llibre",
+            "ca": "reservar",
             "en": "to book / reserve",
-            "hint": "Useful travel and holidays vocabulary in standard Central Catalan. Meaning: to book / reserve.",
-            "ex": "Vull reservar una habitació per dues nits.",
+            "hint": "Reservar means to book; llibre is a book.",
+            "ex": "Vull reservar una habitació per a dues nits.",
             "exEn": "I want to book a room for two nights."
           },
           {
@@ -2691,10 +2691,10 @@ export const levels = [
           },
           {
             "id": "travel-holidays-010",
-            "ca": "muntanyes",
-            "en": "mountains",
-            "hint": "Useful travel and holidays vocabulary in standard Central Catalan. Meaning: mountains.",
-            "ex": "A l'estiu anem a la muntanya.",
+            "ca": "muntanya",
+            "en": "mountains / mountain area",
+            "hint": "Catalan often uses anar a la muntanya for going to the mountains.",
+            "ex": "A l’estiu anem a la muntanya.",
             "exEn": "In the summer we are going to the mountains."
           },
           {
@@ -2707,11 +2707,11 @@ export const levels = [
           },
           {
             "id": "travel-holidays-012",
-            "ca": "calor",
+            "ca": "onada de calor",
             "en": "heatwave",
-            "hint": "Useful travel and holidays vocabulary in standard Central Catalan. Meaning: heatwave.",
-            "ex": "Avui fa una calor terrible.",
-            "exEn": "There is a terrible heatwave today."
+            "hint": "Onada de calor is heatwave; calor alone means heat.",
+            "ex": "Avui hi ha una onada de calor.",
+            "exEn": "There is a heatwave today."
           },
           {
             "id": "travel-holidays-013",
@@ -2739,17 +2739,17 @@ export const levels = [
         "cards": [
           {
             "id": "work-education-001",
-            "ca": "professor",
+            "ca": "professor / professora",
             "en": "teacher (m/f)",
-            "hint": "Useful work and education vocabulary in standard Central Catalan. Meaning: teacher (m/f).",
+            "hint": "Use professor for a male teacher and professora for a female teacher.",
             "ex": "El meu germà és professor d'història.",
             "exEn": "My brother is a history teacher."
           },
           {
             "id": "work-education-002",
-            "ca": "alumne/alumnat",
+            "ca": "alumne / estudiant",
             "en": "pupil / university student",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: pupil / university student.",
+            "hint": "Alumne is a pupil/student; estudiant works especially well for university or adult learners.",
             "ex": "Sóc estudiant de primer any.",
             "exEn": "I am a first-year student."
           },
@@ -2771,9 +2771,9 @@ export const levels = [
           },
           {
             "id": "work-education-005",
-            "ca": "conferència",
+            "ca": "classe / conferència",
             "en": "lecture",
-            "hint": "Useful work and education vocabulary in standard Central Catalan. Meaning: lecture.",
+            "hint": "Classe is the usual word for a class or lecture; conferència is a talk/conference lecture.",
             "ex": "La conferència d'economia va ser molt avorrida.",
             "exEn": "The economics lecture was very boring."
           },
@@ -2787,17 +2787,17 @@ export const levels = [
           },
           {
             "id": "work-education-007",
-            "ca": "per aprendre",
+            "ca": "estudiar / aprendre",
             "en": "to study / learn",
-            "hint": "Useful work and education vocabulary in standard Central Catalan. Meaning: to study / learn.",
-            "ex": "He d'estudiar per l'examen.",
+            "hint": "Estudiar is to study; aprendre is to learn.",
+            "ex": "He d’estudiar per a l’examen.",
             "exEn": "I have to study for the exam."
           },
           {
             "id": "work-education-008",
-            "ca": "ocupació",
+            "ca": "professió",
             "en": "profession",
-            "hint": "Useful work and education vocabulary in standard Central Catalan. Meaning: profession.",
+            "hint": "Professió is profession; ocupació can mean occupation/employment.",
             "ex": "Quina és la teva professió?",
             "exEn": "What is your profession?"
           },
@@ -2835,9 +2835,9 @@ export const levels = [
           },
           {
             "id": "work-education-013",
-            "ca": "remuneració",
+            "ca": "sou",
             "en": "salary",
-            "hint": "Notice the Catalan past-time wording used for simple stories. Meaning: salary.",
+            "hint": "Sou is the everyday word for salary; remuneració is more formal.",
             "ex": "Espero un bon sou.",
             "exEn": "I expect a good salary."
           },
@@ -2886,7 +2886,7 @@ export const levels = [
             "ca": "teatre",
             "en": "theater",
             "hint": "Useful free time and culture vocabulary in standard Central Catalan. Meaning: theater.",
-            "ex": "Tinc entrades per al teatre per dissabte.",
+            "ex": "Tinc entrades per al teatre per a dissabte.",
             "exEn": "I have theater tickets for Saturday."
           },
           {
@@ -2907,7 +2907,7 @@ export const levels = [
           },
           {
             "id": "free-time-culture-007",
-            "ca": "per fer esport",
+            "ca": "fer esport",
             "en": "to do sports",
             "hint": "Useful free time and culture vocabulary in standard Central Catalan. Meaning: to do sports.",
             "ex": "Cal fer esport per estar saludable.",
@@ -2915,7 +2915,7 @@ export const levels = [
           },
           {
             "id": "free-time-culture-008",
-            "ca": "per córrer",
+            "ca": "córrer",
             "en": "to run / jog",
             "hint": "Useful free time and culture vocabulary in standard Central Catalan. Meaning: to run / jog.",
             "ex": "Corro al parc tres cops per setmana.",
@@ -2939,11 +2939,11 @@ export const levels = [
           },
           {
             "id": "free-time-culture-011",
-            "ca": "conèixer",
+            "ca": "quedar amb algú",
             "en": "to meet up",
-            "hint": "Useful free time and culture vocabulary in standard Central Catalan. Meaning: to meet up.",
-            "ex": "Sovint em trobo amb amics al pub.",
-            "exEn": "I often meet with friends at the pub."
+            "hint": "Quedar amb algú means to meet up with someone socially.",
+            "ex": "Sovint quedo amb amics al bar.",
+            "exEn": "I often meet up with friends at the bar."
           },
           {
             "id": "free-time-culture-012",
@@ -2955,11 +2955,11 @@ export const levels = [
           },
           {
             "id": "free-time-culture-013",
-            "ca": "caminar",
+            "ca": "passejar / caminar",
             "en": "walk / stroll",
-            "hint": "Useful free time and culture vocabulary in standard Central Catalan. Meaning: walk / stroll.",
-            "ex": "Anem a fer una llarga caminada pel bosc.",
-            "exEn": "Let's go for a long walk to the forest."
+            "hint": "Passejar is to stroll; caminar is to walk.",
+            "ex": "Anem a fer una caminada llarga pel bosc.",
+            "exEn": "Let’s go for a long walk in the forest."
           }
         ]
       },
@@ -2971,9 +2971,9 @@ export const levels = [
         "cards": [
           {
             "id": "weather-climate-001",
-            "ca": "calor",
+            "ca": "onada de calor",
             "en": "heatwave, scorching heat",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: heatwave, scorching heat.",
+            "hint": "Onada de calor is a heatwave; fa calor simply means it is hot.",
             "ex": "Avui fa una calor terrible.",
             "exEn": "Today it's terribly hot."
           },
@@ -2987,9 +2987,9 @@ export const levels = [
           },
           {
             "id": "weather-climate-003",
-            "ca": "remolí",
+            "ca": "tornado / remolí",
             "en": "tornado, whirlwind",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: tornado, whirlwind.",
+            "hint": "Tornado is clear for tornado; remolí is a whirlwind or swirl.",
             "ex": "El tornado va destruir el bosc.",
             "exEn": "A tornado destroyed the forest."
           },
@@ -3059,10 +3059,10 @@ export const levels = [
           },
           {
             "id": "weather-climate-012",
-            "ca": "temporada",
+            "ca": "estació",
             "en": "season (of the year)",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: season (of the year).",
-            "ex": "Quina és la teva temporada preferida?",
+            "hint": "Estació is a season of the year; temporada is a period or season in a broader sense.",
+            "ex": "Quina és la teva estació preferida?",
             "exEn": "What's your favourite season?"
           },
           {
@@ -3070,7 +3070,7 @@ export const levels = [
             "ca": "precipitacions",
             "en": "precipitation, rainfall",
             "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: precipitation, rainfall.",
-            "ex": "Demà plourà.",
+            "ex": "Demà hi haurà precipitacions.",
             "exEn": "Tomorrow there will be rainfall."
           },
           {
@@ -3099,10 +3099,10 @@ export const levels = [
           },
           {
             "id": "weather-climate-017",
-            "ca": "aigua",
-            "en": "water",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: water.",
-            "ex": "No hi ha aigua a l'estiu.",
+            "ca": "manca d’aigua",
+            "en": "water shortage",
+            "hint": "Manca d’aigua means water shortage; aigua alone just means water.",
+            "ex": "A l’estiu hi ha manca d’aigua.",
             "exEn": "In summer there is a shortage of water."
           },
           {
@@ -3115,25 +3115,25 @@ export const levels = [
           },
           {
             "id": "weather-climate-019",
-            "ca": "càlid",
-            "en": "warm (warmer)",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: warm (warmer).",
+            "ca": "més càlid",
+            "en": "warmer",
+            "hint": "Més càlid means warmer; càlid alone means warm.",
             "ex": "El maig serà més càlid que l'abril.",
             "exEn": "May will be warmer than April."
           },
           {
             "id": "weather-climate-020",
-            "ca": "fresc",
-            "en": "cool (cooler)",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: cool (cooler).",
-            "ex": "Els hiverns seran més freds que ara.",
-            "exEn": "Winters will be cooler than now."
+            "ca": "més fresc",
+            "en": "cooler",
+            "hint": "Més fresc means cooler; fred is colder.",
+            "ex": "Demà farà més fresc que avui.",
+            "exEn": "Tomorrow will be cooler than today."
           },
           {
             "id": "weather-climate-021",
-            "ca": "fred",
-            "en": "cold (colder)",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: cold (colder).",
+            "ca": "més fred",
+            "en": "colder",
+            "hint": "Més fred means colder; fred alone means cold.",
             "ex": "Aquest hivern és més fred que l'anterior.",
             "exEn": "This winter is colder than the previous one."
           },
@@ -3147,9 +3147,9 @@ export const levels = [
           },
           {
             "id": "weather-climate-023",
-            "ca": "humit",
+            "ca": "mullat",
             "en": "wet",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: wet.",
+            "hint": "Mullat means wet from water; humit means humid or damp.",
             "ex": "Després de la pluja, l'herba està mullada.",
             "exEn": "After the rain the grass is wet."
           },
@@ -3163,41 +3163,41 @@ export const levels = [
           },
           {
             "id": "weather-climate-025",
-            "ca": "fort",
-            "en": "strong (stronger)",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: strong (stronger).",
+            "ca": "més fort",
+            "en": "stronger",
+            "hint": "Més fort means stronger.",
             "ex": "Les tempestes seran més fortes que ara.",
             "exEn": "Storms will be stronger than now."
           },
           {
             "id": "weather-climate-026",
-            "ca": "feble",
-            "en": "weak (weaker)",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: weak (weaker).",
+            "ca": "més feble",
+            "en": "weaker",
+            "hint": "Més feble means weaker.",
             "ex": "La pluja serà més feble que ahir.",
             "exEn": "The rain will be weaker than yesterday."
           },
           {
             "id": "weather-climate-027",
-            "ca": "abocant",
+            "ca": "torrencial",
             "en": "torrential",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: torrential.",
-            "ex": "Estava plovent molt.",
+            "hint": "Torrencial describes very heavy rain; abocant is not natural here.",
+            "ex": "Queia una pluja torrencial.",
             "exEn": "Torrential rain was falling."
           },
           {
             "id": "weather-climate-028",
-            "ca": "abrasador",
+            "ca": "xafogós",
             "en": "sweltering, boiling hot",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: sweltering, boiling hot.",
-            "ex": "Va ser un dia calorós.",
+            "hint": "Xafogós means sweltering or muggy.",
+            "ex": "Va ser un dia xafogós.",
             "exEn": "It was a sweltering day."
           },
           {
             "id": "weather-climate-029",
-            "ca": "Canviar",
+            "ca": "canvi",
             "en": "change",
-            "hint": "Useful weather and climate vocabulary in standard Central Catalan. Meaning: change.",
+            "hint": "Canvi is the noun “change”; canviar is the verb.",
             "ex": "El canvi climàtic és un gran problema.",
             "exEn": "Climate change is a big problem."
           },
@@ -3230,14 +3230,14 @@ export const levels = [
             "ca": "mandrós",
             "en": "lazy",
             "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: lazy.",
-            "ex": "Estic mandrós el cap de setmana.",
-            "exEn": "At the weekend I'm lazy."
+            "ex": "Em fa mandra fer coses el cap de setmana.",
+            "exEn": "I feel lazy at the weekend."
           },
           {
             "id": "personality-003",
-            "ca": "precís",
+            "ca": "meticulós / precís",
             "en": "meticulous, accurate",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: meticulous, accurate.",
+            "hint": "Meticulós is careful with details; precís is accurate or precise.",
             "ex": "Un bon comptable és minuciós.",
             "exEn": "A good accountant is meticulous."
           },
@@ -3259,11 +3259,11 @@ export const levels = [
           },
           {
             "id": "personality-006",
-            "ca": "dispersat",
+            "ca": "despistat",
             "en": "scatterbrained",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: scatterbrained.",
-            "ex": "De vegades em descobreixo i perdo les meves claus.",
-            "exEn": "Sometimes I'm scatterbrained and lose my keys."
+            "hint": "Despistat means scatterbrained or absent-minded.",
+            "ex": "De vegades soc despistat i perdo les claus.",
+            "exEn": "Sometimes I’m absent-minded and lose my keys."
           },
           {
             "id": "personality-007",
@@ -3315,19 +3315,19 @@ export const levels = [
           },
           {
             "id": "personality-013",
-            "ca": "obert",
+            "ca": "obert / oberta",
             "en": "open",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: open.",
+            "hint": "Obert is masculine; oberta is feminine.",
             "ex": "Està obert a gent nova.",
             "exEn": "He's open to new people."
           },
           {
             "id": "personality-014",
-            "ca": "retirat",
+            "ca": "reservat",
             "en": "reserved, withdrawn",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: reserved, withdrawn.",
-            "ex": "De petit, es va retirar.",
-            "exEn": "As a child he was withdrawn."
+            "hint": "Reservat means reserved; retirat usually means retired or withdrawn in another sense.",
+            "ex": "De petit era molt reservat.",
+            "exEn": "As a child, he was very reserved."
           },
           {
             "id": "personality-015",
@@ -3339,33 +3339,33 @@ export const levels = [
           },
           {
             "id": "personality-016",
-            "ca": "socials",
+            "ca": "sociable",
             "en": "sociable",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: sociable.",
+            "hint": "Sociable is the adjective; socials is plural of social.",
             "ex": "És molt sociable i té molts amics.",
             "exEn": "She's very sociable and has lots of friends."
           },
           {
             "id": "personality-017",
-            "ca": "barallador",
+            "ca": "discutidor",
             "en": "quarrelsome",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: quarrelsome.",
-            "ex": "No m'agrada la gent argumentada.",
-            "exEn": "I don't like quarrelsome people."
+            "hint": "Discutidor describes someone who likes arguing.",
+            "ex": "No m’agrada la gent discutidora.",
+            "exEn": "I don’t like quarrelsome people."
           },
           {
             "id": "personality-018",
-            "ca": "protectora",
+            "ca": "afectuós / protector",
             "en": "caring, protective",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: caring, protective.",
-            "ex": "És un pare solidari.",
-            "exEn": "He's a caring father."
+            "hint": "Afectuós is caring or affectionate; protector is protective.",
+            "ex": "És un pare afectuós.",
+            "exEn": "He is a caring father."
           },
           {
             "id": "personality-019",
-            "ca": "bonic",
+            "ca": "agradable",
             "en": "nice, kind, pleasant",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: nice, kind, pleasant.",
+            "hint": "Agradable is nice or pleasant; bonic means pretty/beautiful.",
             "ex": "El nostre nou veí és molt agradable.",
             "exEn": "Our new neighbour is very nice."
           },
@@ -3387,17 +3387,17 @@ export const levels = [
           },
           {
             "id": "personality-022",
-            "ca": "assolellat",
+            "ca": "alegre",
             "en": "cheerful",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: cheerful.",
+            "hint": "Alegre means cheerful; assolellat means sunny.",
             "ex": "Té un caràcter alegre.",
             "exEn": "She has a cheerful disposition."
           },
           {
             "id": "personality-023",
             "ca": "alegre",
-            "en": "merry, happy",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: merry, happy.",
+            "en": "happy / cheerful",
+            "hint": "Alegre means happy, cheerful or lively.",
             "ex": "Sempre està alegre.",
             "exEn": "He's always cheerful."
           },
@@ -3427,11 +3427,11 @@ export const levels = [
           },
           {
             "id": "personality-027",
-            "ca": "fresc",
+            "ca": "distant",
             "en": "cold, aloof",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: cold, aloof.",
-            "ex": "Tenia fred amb mi.",
-            "exEn": "He was cold towards me."
+            "hint": "Distant is aloof or emotionally cold; fred is literal cold.",
+            "ex": "Es va mostrar distant amb mi.",
+            "exEn": "He was aloof with me."
           },
           {
             "id": "personality-028",
@@ -3443,9 +3443,9 @@ export const levels = [
           },
           {
             "id": "personality-029",
-            "ca": "agosarat",
+            "ca": "valent / agosarat",
             "en": "brave, courageous",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: brave, courageous.",
+            "hint": "Valent is brave; agosarat is bold or daring.",
             "ex": "Sigues valent i prova-ho!",
             "exEn": "Be brave and try!"
           },
@@ -3454,8 +3454,8 @@ export const levels = [
             "ca": "confiat",
             "en": "self-confident",
             "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: self-confident.",
-            "ex": "Tenir confiança durant una entrevista de treball.",
-            "exEn": "At a job interview, be self-confident."
+            "ex": "Has de tenir confiança durant una entrevista de feina.",
+            "exEn": "You need self-confidence during a job interview."
           },
           {
             "id": "personality-031",
@@ -3491,19 +3491,19 @@ export const levels = [
           },
           {
             "id": "personality-035",
-            "ca": "barat",
+            "ca": "garrepa",
             "en": "stingy, miserly",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: stingy, miserly.",
-            "ex": "No siguis avar, compra un cafè!",
-            "exEn": "Don't be stingy, buy a coffee!"
+            "hint": "Garrepa is a common word for stingy; barat means cheap as a price.",
+            "ex": "No siguis garrepa, convida’m a un cafè!",
+            "exEn": "Don’t be stingy, buy me a coffee!"
           },
           {
             "id": "personality-036",
-            "ca": "luxós",
+            "ca": "malgastador",
             "en": "wasteful, extravagant",
-            "hint": "Useful personality vocabulary in standard Central Catalan. Meaning: wasteful, extravagant.",
-            "ex": "És extravagant i gasta massa.",
-            "exEn": "He's wasteful and spends too much."
+            "hint": "Malgastador means wasteful; luxós means luxurious.",
+            "ex": "És malgastador i gasta massa.",
+            "exEn": "He’s wasteful and spends too much."
           }
         ]
       },
@@ -3515,51 +3515,51 @@ export const levels = [
         "cards": [
           {
             "id": "ecology-001",
-            "ca": "retornar/retornar",
+            "ca": "retornar",
             "en": "to give back, return",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to give back, return.",
+            "hint": "Retornar means to return an item, especially in a formal or deposit context.",
             "ex": "Tornaré les ampolles a la botiga.",
             "exEn": "I'll return the bottles at the shop."
           },
           {
             "id": "ecology-002",
-            "ca": "tornar / tornar",
+            "ca": "tornar",
             "en": "to return, give back",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to return, give back.",
+            "hint": "Tornar means to return or go back; it can also mean give back in everyday speech.",
             "ex": "Tornaré les ampolles i aconseguiré els diners.",
             "exEn": "I'll return the bottles and get money back."
           },
           {
             "id": "ecology-003",
-            "ca": "recollir / recollir",
+            "ca": "recollir",
             "en": "to collect, gather",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to collect, gather.",
+            "hint": "Recollir means to collect or pick up.",
             "ex": "Recolliré ampolles per reciclar-les.",
             "exEn": "I will collect bottles for recycling."
           },
           {
             "id": "ecology-004",
-            "ca": "llençar / llençar",
+            "ca": "llençar",
             "en": "to throw out",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to throw out.",
-            "ex": "Vaig a treure les escombraries al vespre.",
+            "hint": "Llençar means to throw away.",
+            "ex": "Trauré les escombraries al vespre.",
             "exEn": "I'll take out the rubbish in the evening."
           },
           {
             "id": "ecology-005",
-            "ca": "segregar",
+            "ca": "separar",
             "en": "to sort, segregate",
-            "hint": "Useful ecology vocabulary in standard Central Catalan. Meaning: to sort, segregate.",
-            "ex": "Triaré les escombraries a casa.",
+            "hint": "Separar is the natural verb for sorting recycling.",
+            "ex": "Separo les escombraries a casa.",
             "exEn": "I will sort the rubbish at home."
           },
           {
             "id": "ecology-006",
-            "ca": "sistema de dipòsit",
-            "en": "deposit-return system",
-            "hint": "Useful ecology vocabulary in standard Central Catalan. Meaning: deposit-return system.",
-            "ex": "Hi ha un sistema de dipòsit d'ampolles a Catalunya.",
-            "exEn": "In Catalonia there's a deposit-return system for bottles."
+            "ca": "sistema de retorn",
+            "en": "return system",
+            "hint": "Sistema de retorn is safer than implying a specific deposit scheme everywhere.",
+            "ex": "Hi ha sistemes de retorn d’envasos.",
+            "exEn": "There are packaging return systems."
           },
           {
             "id": "ecology-007",
@@ -3582,14 +3582,14 @@ export const levels = [
             "ca": "vidre",
             "en": "glass (the material)",
             "hint": "Useful ecology vocabulary in standard Central Catalan. Meaning: glass (the material).",
-            "ex": "Tiro el vidre al recipient verd.",
+            "ex": "Tiro el vidre al contenidor verd.",
             "exEn": "I throw glass into the green container."
           },
           {
             "id": "ecology-010",
-            "ca": "vidre",
+            "ca": "got",
             "en": "(drinking) glass, tumbler",
-            "hint": "Useful ecology vocabulary in standard Central Catalan. Meaning: (drinking) glass, tumbler.",
+            "hint": "Got is a drinking glass; vidre is glass as a material.",
             "ex": "Vaig beure un got d'aigua.",
             "exEn": "I drank a glass of water."
           },
@@ -3611,43 +3611,43 @@ export const levels = [
           },
           {
             "id": "ecology-013",
-            "ca": "guardar/desar",
+            "ca": "estalviar",
             "en": "to save (water, power)",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to save (water, power).",
+            "hint": "Estalviar means to save resources or money.",
             "ex": "Estalviaré aigua i electricitat.",
             "exEn": "I will save water and electricity."
           },
           {
             "id": "ecology-014",
-            "ca": "apagar/apagar",
+            "ca": "apagar",
             "en": "to switch off, turn off",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to switch off, turn off.",
-            "ex": "Apagaré l'ordinador per la nit.",
+            "hint": "Apagar means to switch off a light or device.",
+            "ex": "Apagaré l’ordinador a la nit.",
             "exEn": "I'll switch off the computer for the night."
           },
           {
             "id": "ecology-015",
-            "ca": "gir / girar",
+            "ca": "tancar l’aixeta",
             "en": "to turn off (a tap)",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to turn off (a tap).",
-            "ex": "Tanca l'aigua mentre et renta les dents.",
+            "hint": "Tancar l’aixeta means to turn off the tap.",
+            "ex": "Tanca l’aixeta mentre et rentes les dents.",
             "exEn": "Turn off the tap while brushing your teeth."
           },
           {
             "id": "ecology-016",
-            "ca": "malgastar / malgastar",
+            "ca": "malgastar",
             "en": "to waste",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to waste.",
+            "hint": "Malgastar means to waste resources, food, money or time.",
             "ex": "No malgastaré menjar.",
             "exEn": "I won't waste food."
           },
           {
             "id": "ecology-017",
-            "ca": "estalvi d'energia",
+            "ca": "eficient energèticament",
             "en": "energy-efficient",
-            "hint": "Useful ecology vocabulary in standard Central Catalan. Meaning: energy-efficient.",
-            "ex": "Compraré equips d'estalvi d'energia.",
-            "exEn": "I'll buy energy-efficient appliances."
+            "hint": "Eficient energèticament means energy-efficient.",
+            "ex": "Compraré electrodomèstics eficients energèticament.",
+            "exEn": "I’ll buy energy-efficient appliances."
           },
           {
             "id": "ecology-018",
@@ -3659,50 +3659,50 @@ export const levels = [
           },
           {
             "id": "ecology-019",
-            "ca": "bany",
+            "ca": "banyera",
             "en": "bathtub",
-            "hint": "Useful ecology vocabulary in standard Central Catalan. Meaning: bathtub.",
-            "ex": "Prefereixo una dutxa en lloc d'un bany a la banyera.",
-            "exEn": "I prefer a shower to a bath in the tub."
+            "hint": "Banyera is bathtub; bany can mean bathroom or bath.",
+            "ex": "Prefereixo dutxar-me en lloc de banyar-me a la banyera.",
+            "exEn": "I prefer showering instead of bathing in the tub."
           },
           {
             "id": "ecology-020",
-            "ca": "prendre/dutxar-se",
+            "ca": "dutxar-se",
             "en": "to take a shower",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to take a shower.",
+            "hint": "Dutxar-se means to take a shower.",
             "ex": "Em dutxaré en comptes de banyar-me.",
             "exEn": "I'll take a shower instead of a bath."
           },
           {
             "id": "ecology-021",
-            "ca": "comprar / comprar",
+            "ca": "comprar",
             "en": "to buy",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to buy.",
+            "hint": "Comprar means to buy.",
             "ex": "No compraré roba nova.",
             "exEn": "I won't buy new clothes."
           },
           {
             "id": "ecology-022",
-            "ca": "intercanvi/intercanvi",
+            "ca": "intercanviar",
             "en": "to swap, exchange",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to swap, exchange.",
-            "ex": "Intercanvi de roba amb els meus amics.",
-            "exEn": "I swap clothes with friends."
+            "hint": "Intercanviar means to swap or exchange.",
+            "ex": "Intercanvio roba amb els meus amics.",
+            "exEn": "I swap clothes with my friends."
           },
           {
             "id": "ecology-023",
-            "ca": "paquet / paquet",
+            "ca": "posar a la bossa",
             "en": "to pack",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to pack.",
-            "ex": "Faré les meves queviures a la meva pròpia bossa.",
-            "exEn": "I'll pack the shopping into my own bag."
+            "hint": "Use posar a la bossa for packing groceries into a bag.",
+            "ex": "Posaré la compra a la meva pròpia bossa.",
+            "exEn": "I’ll pack the shopping into my own bag."
           },
           {
             "id": "ecology-024",
-            "ca": "utilitzar/utilitzar",
+            "ca": "fer servir",
             "en": "to use",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to use.",
-            "ex": "Faré servir embalatges reutilitzables.",
+            "hint": "Fer servir is a very common way to say “to use”.",
+            "ex": "Faré servir envasos reutilitzables.",
             "exEn": "I'll use reusable packaging."
           },
           {
@@ -3710,30 +3710,30 @@ export const levels = [
             "ca": "transport públic",
             "en": "public transport",
             "hint": "Useful ecology vocabulary in standard Central Catalan. Meaning: public transport.",
-            "ex": "Jo faig servir el transport públic en lloc del cotxe.",
+            "ex": "Faig servir el transport públic en lloc del cotxe.",
             "exEn": "I travel by public transport instead of by car."
           },
           {
             "id": "ecology-026",
-            "ca": "invertir / invertir",
+            "ca": "invertir",
             "en": "to invest",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to invest.",
+            "hint": "Invertir means to invest.",
             "ex": "Invertiré en energia verda.",
             "exEn": "I will invest in green energy."
           },
           {
             "id": "ecology-027",
-            "ca": "reduir / reduir",
+            "ca": "reduir",
             "en": "to reduce",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to reduce.",
+            "hint": "Reduir means to reduce.",
             "ex": "Hem de reduir les emissions de CO2.",
             "exEn": "We must reduce CO2 emissions."
           },
           {
             "id": "ecology-028",
-            "ca": "retallar / retallar",
+            "ca": "talar",
             "en": "to cut down",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to cut down.",
+            "hint": "Talar means to cut down trees.",
             "ex": "No hem de talar arbres.",
             "exEn": "We shouldn't cut down trees."
           },
@@ -3763,9 +3763,9 @@ export const levels = [
         "cards": [
           {
             "id": "appearance-clothes-001",
-            "ca": "semblar",
+            "ca": "semblar / veure’s",
             "en": "to look (a certain way)",
-            "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: to look (a certain way).",
+            "hint": "Semblar is to seem/look; veure’s is used for how someone looks.",
             "ex": "Et veus cansat.",
             "exEn": "You look tired."
           },
@@ -3779,10 +3779,10 @@ export const levels = [
           },
           {
             "id": "appearance-clothes-003",
-            "ca": "desgast",
+            "ca": "portar posat",
             "en": "to have on / be wearing",
-            "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: to have on / be wearing.",
-            "ex": "Porta un vestit vermell.",
+            "hint": "Portar posat means to have on or be wearing.",
+            "ex": "Porta posat un vestit vermell.",
             "exEn": "She's wearing a red dress."
           },
           {
@@ -3790,38 +3790,38 @@ export const levels = [
             "ca": "portar",
             "en": "to wear (habitually)",
             "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: to wear (habitually).",
-            "ex": "A l'hivern porto un barret d'abric.",
+            "ex": "A l’hivern porto un barret calent.",
             "exEn": "In winter I wear a warm hat."
           },
           {
             "id": "appearance-clothes-005",
-            "ca": "posar-se / posar-se",
+            "ca": "posar-se",
             "en": "to put on",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to put on.",
-            "ex": "Posa't una jaqueta, fa fred.",
+            "hint": "Posar-se means to put on clothing.",
+            "ex": "Posa’t una jaqueta, fa fred.",
             "exEn": "Put a jacket on, it's cold."
           },
           {
             "id": "appearance-clothes-006",
-            "ca": "prova-ho",
+            "ca": "emprovar-se",
             "en": "to try on",
-            "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: to try on.",
-            "ex": "Vull provar-me aquestes sabates.",
+            "hint": "Emprovar-se is to try on clothes or shoes.",
+            "ex": "Vull emprovar-me aquestes sabates.",
             "exEn": "I'd like to try on these shoes."
           },
           {
             "id": "appearance-clothes-007",
-            "ca": "encaixar en",
+            "ca": "quedar bé",
             "en": "to match / suit",
-            "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: to match / suit.",
-            "ex": "Aquest color s'adapta als teus ulls.",
-            "exEn": "This colour matches your eyes."
+            "hint": "Quedar bé is natural for clothes or colors that suit someone.",
+            "ex": "Aquest color et queda bé als ulls.",
+            "exEn": "This color suits your eyes."
           },
           {
             "id": "appearance-clothes-008",
-            "ca": "encaixar",
+            "ca": "quedar bé / anar bé",
             "en": "to fit well",
-            "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: to fit well.",
+            "hint": "Quedar bé means to suit; anar bé can mean to fit/work well.",
             "ex": "Aquests pantalons et queden molt bé.",
             "exEn": "Those trousers fit you great."
           },
@@ -3835,7 +3835,7 @@ export const levels = [
           },
           {
             "id": "appearance-clothes-010",
-            "ca": "Camisa",
+            "ca": "camisa",
             "en": "shirt",
             "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: shirt.",
             "ex": "Em poso una camisa blanca per treballar.",
@@ -3843,7 +3843,7 @@ export const levels = [
           },
           {
             "id": "appearance-clothes-011",
-            "ca": "Pantalons",
+            "ca": "pantalons",
             "en": "trousers",
             "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: trousers.",
             "ex": "Aquests pantalons són massa llargs.",
@@ -3859,7 +3859,7 @@ export const levels = [
           },
           {
             "id": "appearance-clothes-013",
-            "ca": "Sabates",
+            "ca": "sabates",
             "en": "shoes",
             "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: shoes.",
             "ex": "Necessito sabates noves per a l'hivern.",
@@ -3867,7 +3867,7 @@ export const levels = [
           },
           {
             "id": "appearance-clothes-014",
-            "ca": "Barret",
+            "ca": "barret",
             "en": "(winter/casual) hat, cap",
             "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: (winter/casual) hat, cap.",
             "ex": "Posa't un barret o passaràs fred.",
@@ -3875,9 +3875,9 @@ export const levels = [
           },
           {
             "id": "appearance-clothes-015",
-            "ca": "creixement",
+            "ca": "alçada",
             "en": "height",
-            "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: height.",
+            "hint": "Alçada is height; creixement is growth.",
             "ex": "És d'alçada mitjana.",
             "exEn": "He's of medium height."
           },
@@ -3907,9 +3907,9 @@ export const levels = [
           },
           {
             "id": "appearance-clothes-019",
-            "ca": "ros / ros",
+            "ca": "ros / rossa",
             "en": "blond man / woman",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: blond man / woman.",
+            "hint": "Ros is masculine blond; rossa is feminine blond.",
             "ex": "El meu germà és ros i jo soc morena.",
             "exEn": "My brother is blond and I'm a brunette."
           },
@@ -3947,9 +3947,9 @@ export const levels = [
           },
           {
             "id": "appearance-clothes-024",
-            "ca": "Això et convé",
+            "ca": "Això et queda bé",
             "en": "That suits you",
-            "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: That suits you.",
+            "hint": "Et queda bé is the natural way to say something suits you.",
             "ex": "Aquest color et va bé!",
             "exEn": "That colour really suits you!"
           },
@@ -3958,7 +3958,7 @@ export const levels = [
             "ca": "elegant",
             "en": "elegant, smart",
             "hint": "Useful appearance and clothes vocabulary in standard Central Catalan. Meaning: elegant, smart.",
-            "ex": "Em vaig vestir elegantment per a l'entrevista de feina.",
+            "ex": "Em vaig vestir elegant per a l’entrevista de feina.",
             "exEn": "I dressed smartly for the job interview."
           }
         ]
@@ -3971,73 +3971,73 @@ export const levels = [
         "cards": [
           {
             "id": "past-events-001",
-            "ca": "jo era/estava",
+            "ca": "era / estava",
             "en": "I was",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I was.",
-            "ex": "Ahir vaig anar al cinema.",
-            "exEn": "Yesterday I was at the cinema."
+            "hint": "Era is for identity or lasting qualities; estava is for temporary states.",
+            "ex": "Ahir estava cansat.",
+            "exEn": "Yesterday I was tired."
           },
           {
             "id": "past-events-002",
-            "ca": "tenia/he tingut",
+            "ca": "tenia / vaig tenir",
             "en": "I had",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I had.",
+            "hint": "Tenia is “I had/used to have”; vaig tenir is a completed past event.",
             "ex": "Ahir no vaig tenir temps.",
             "exEn": "I didn't have time yesterday."
           },
           {
             "id": "past-events-003",
-            "ca": "ho vaig fer / vaig fer",
+            "ca": "feia / vaig fer",
             "en": "I was doing / I did",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I was doing / I did.",
-            "ex": "Vaig fer la tasca durant dues hores i finalment ho vaig fer.",
-            "exEn": "I was doing the task for two hours and finally finished it."
+            "hint": "Feia is ongoing past; vaig fer is a completed action.",
+            "ex": "Vaig fer la tasca en dues hores.",
+            "exEn": "I did the task in two hours."
           },
           {
             "id": "past-events-004",
-            "ca": "Vaig anar / vaig anar",
+            "ca": "vaig anar",
             "en": "I went (on foot)",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I went (on foot).",
+            "hint": "Vaig anar is the simple past for “I went”.",
             "ex": "Al matí vaig anar a la botiga.",
             "exEn": "In the morning I went to the shop."
           },
           {
             "id": "past-events-005",
-            "ca": "vaig veure / vaig veure",
+            "ca": "vaig veure",
             "en": "I saw",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I saw.",
+            "hint": "Vaig veure is the simple past for “I saw”.",
             "ex": "Ahir vaig veure la teva germana.",
             "exEn": "I saw your sister yesterday."
           },
           {
             "id": "past-events-006",
-            "ca": "vaig dir / vaig dir",
+            "ca": "deia / vaig dir",
             "en": "I was saying / I said",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I was saying / I said.",
+            "hint": "Deia is “I was saying/used to say”; vaig dir is “I said”.",
             "ex": "Ja t'he dit que no puc.",
             "exEn": "I already told you I can't."
           },
           {
             "id": "past-events-007",
-            "ca": "jo volia / volia",
+            "ca": "volia",
             "en": "I wanted",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I wanted.",
+            "hint": "Volia means I wanted or I was wanting.",
             "ex": "Et volia preguntar alguna cosa.",
             "exEn": "I wanted to ask you something."
           },
           {
             "id": "past-events-008",
-            "ca": "havia de/he de",
+            "ca": "vaig haver de",
             "en": "I had to",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I had to.",
+            "hint": "Vaig haver de means I had to do something.",
             "ex": "Vaig haver de llevar-me d'hora.",
             "exEn": "I had to get up early."
           },
           {
             "id": "past-events-009",
-            "ca": "podria/podria",
+            "ca": "podia / vaig poder",
             "en": "I could / was able to",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I could / was able to.",
+            "hint": "Podia is could/was able generally; vaig poder is managed to in a completed event.",
             "ex": "No vaig poder dormir tota la nit.",
             "exEn": "I couldn't sleep all night."
           },
@@ -4070,14 +4070,14 @@ export const levels = [
             "ca": "Vaig néixer",
             "en": "I was born",
             "hint": "Notice the Catalan past-time wording used for simple stories. Meaning: I was born.",
-            "ex": "Vaig néixer a Geòrgia.",
-            "exEn": "I was born in Georgia."
+            "ex": "Vaig néixer a Girona.",
+            "exEn": "I was born in Girona."
           },
           {
             "id": "past-events-014",
-            "ca": "Vaig acabar els meus estudis",
+            "ca": "em vaig graduar",
             "en": "I graduated",
-            "hint": "Notice the Catalan past-time wording used for simple stories. Meaning: I graduated.",
+            "hint": "Em vaig graduar means I graduated.",
             "ex": "Em vaig graduar fa dos anys.",
             "exEn": "I graduated two years ago."
           },
@@ -4099,9 +4099,9 @@ export const levels = [
           },
           {
             "id": "past-events-017",
-            "ca": "en mil nou-cents vuitanta-cinc",
+            "ca": "l’any mil nou-cents vuitanta-cinc",
             "en": "in 1985",
-            "hint": "Useful talking about the past vocabulary in standard Central Catalan. Meaning: in 1985.",
+            "hint": "Use l’any before a year when saying “in 1985”.",
             "ex": "Va néixer l'any mil nou-cents vuitanta-cinc.",
             "exEn": "He was born in 1985."
           },
@@ -4139,26 +4139,26 @@ export const levels = [
           },
           {
             "id": "past-events-022",
-            "ca": "Ho vaig fer",
+            "ca": "ho vaig aconseguir",
             "en": "I managed to",
-            "hint": "Notice the Catalan past-time wording used for simple stories. Meaning: I managed to.",
+            "hint": "Ho vaig aconseguir means “I managed it”.",
             "ex": "Finalment vaig aconseguir trobar un apartament.",
             "exEn": "I finally managed to find a flat."
           },
           {
             "id": "past-events-023",
-            "ca": "Recordo com",
+            "ca": "recordo quan",
             "en": "I remember how / when",
-            "hint": "Useful talking about the past vocabulary in standard Central Catalan. Meaning: I remember how / when.",
+            "hint": "Recordo quan means “I remember when”.",
             "ex": "Recordo la primera vegada que vaig venir a Catalunya.",
             "exEn": "I remember when I first came to Catalonia."
           },
           {
             "id": "past-events-024",
-            "ca": "m'he oblidat / m'he oblidat",
+            "ca": "me’n vaig oblidar",
             "en": "I forgot",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: I forgot.",
-            "ex": "Ho sento, m'he oblidat de la reunió.",
+            "hint": "Oblidar-se de takes en: me’n vaig oblidar.",
+            "ex": "Ho sento, me’n vaig oblidar de la reunió.",
             "exEn": "Sorry, I forgot about the meeting."
           }
         ]
@@ -4179,17 +4179,17 @@ export const levels = [
           },
           {
             "id": "quantities-money-002",
-            "ca": "cost",
+            "ca": "costar",
             "en": "to cost",
-            "hint": "Useful quantities and money vocabulary in standard Central Catalan. Meaning: to cost.",
+            "hint": "Costar is the verb “to cost”; cost is English.",
             "ex": "El cafè costa quinze euros.",
             "exEn": "The coffee costs fifteen euros."
           },
           {
             "id": "quantities-money-003",
-            "ca": "euro (euro)",
+            "ca": "euro",
             "en": "euro (currency used in Catalonia)",
-            "hint": "Use euros and cèntims for prices in Catalonia. Meaning: euro (currency used in Catalonia).",
+            "hint": "Euro is singular; euros is plural.",
             "ex": "Seran vint euros.",
             "exEn": "That'll be twenty euros."
           },
@@ -4203,9 +4203,9 @@ export const levels = [
           },
           {
             "id": "quantities-money-005",
-            "ca": "Benvolgut",
+            "ca": "car",
             "en": "expensive",
-            "hint": "Useful quantities and money vocabulary in standard Central Catalan. Meaning: expensive.",
+            "hint": "Car means expensive; benvolgut means dear in greetings.",
             "ex": "Aquest restaurant és massa car.",
             "exEn": "This restaurant is too expensive."
           },
@@ -4227,10 +4227,10 @@ export const levels = [
           },
           {
             "id": "quantities-money-008",
-            "ca": "deco (gram)",
-            "en": "10 grams (Catalan 'deka')",
-            "hint": "Useful quantities and money vocabulary in standard Central Catalan. Meaning: 10 grams (Catalan 'deka').",
-            "ex": "M'agradaria vint pernils deco.",
+            "ca": "cent grams",
+            "en": "100 grams",
+            "hint": "Catalonia uses grams and kilograms; “deka” is not a useful Catalan shopping unit.",
+            "ex": "Voldria dos-cents grams de pernil.",
             "exEn": "200 grams of ham, please."
           },
           {
@@ -4262,14 +4262,14 @@ export const levels = [
             "ca": "pot",
             "en": "jar",
             "hint": "Useful quantities and money vocabulary in standard Central Catalan. Meaning: jar.",
-            "ex": "Hi ha un pot d'escabetx a la nevera.",
-            "exEn": "There's a jar of pickles in the fridge."
+            "ex": "Hi ha un pot de melmelada a la nevera.",
+            "exEn": "There is a jar of jam in the fridge."
           },
           {
             "id": "quantities-money-013",
-            "ca": "peça",
+            "ca": "tros / llesca",
             "en": "a piece / slice",
-            "hint": "Useful quantities and money vocabulary in standard Central Catalan. Meaning: a piece / slice.",
+            "hint": "Tros is a piece; llesca is a slice of bread, pizza, etc.",
             "ex": "Em menjaré una altra llesca de pizza.",
             "exEn": "I'll have one more slice of pizza."
           },
@@ -4299,7 +4299,7 @@ export const levels = [
           },
           {
             "id": "quantities-money-017",
-            "ca": "Una mica",
+            "ca": "una mica",
             "en": "a bit, some",
             "hint": "Feminine nouns usually take la or una; l' appears before many vowel sounds. Meaning: a bit, some.",
             "ex": "Afegiu una mica de sal.",
@@ -4325,7 +4325,7 @@ export const levels = [
             "id": "quantities-money-020",
             "ca": "una moneda d'euro",
             "en": "one-euro coin / 'a euro' (colloq.)",
-            "hint": "Use una moneda d'euro for the coin; un euro is the amount. Meaning: one-euro coin / 'a euro' (colloq.).",
+            "hint": "Use un before masculine nouns, una before feminine nouns, and plural forms after numbers.",
             "ex": "Tens una moneda d'euro?",
             "exEn": "Do you have a euro coin by any chance?"
           },
@@ -4339,9 +4339,9 @@ export const levels = [
           },
           {
             "id": "quantities-money-022",
-            "ca": "pagar amb targeta/efectiu",
+            "ca": "pagar amb targeta / en efectiu",
             "en": "to pay by card / in cash",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: to pay by card / in cash.",
+            "hint": "Amb targeta means by card; en efectiu means in cash.",
             "ex": "Prefereixo pagar amb targeta abans que en efectiu.",
             "exEn": "I prefer to pay by card than in cash."
           },
@@ -4374,7 +4374,7 @@ export const levels = [
             "ca": "Com arribar a...?",
             "en": "How do I get to...? (by transport)",
             "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: How do I get to...? (by transport).",
-            "ex": "Disculpeu, com arribar a l'estació?",
+            "ex": "Disculpeu, com puc arribar a l’estació?",
             "exEn": "Excuse me, how do I get to the station?"
           },
           {
@@ -4382,7 +4382,7 @@ export const levels = [
             "ca": "Com arribar a...?",
             "en": "How do I get to...? (on foot)",
             "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: How do I get to...? (on foot).",
-            "ex": "Com arribar al museu des d'aquí?",
+            "ex": "Com puc arribar al museu des d’aquí?",
             "exEn": "How do I walk to the museum from here?"
           },
           {
@@ -4398,8 +4398,8 @@ export const levels = [
             "ca": "recte",
             "en": "straight ahead",
             "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: straight ahead.",
-            "ex": "si us plau, aneu directament als llums.",
-            "exEn": "Go straight ahead to the traffic lights."
+            "ex": "Aneu recte fins al semàfor, si us plau.",
+            "exEn": "Go straight to the traffic lights, please."
           },
           {
             "id": "directions-orientation-005",
@@ -4411,11 +4411,11 @@ export const levels = [
           },
           {
             "id": "directions-orientation-006",
-            "ca": "caminar",
+            "ca": "seguir",
             "en": "to go along",
-            "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: to go along.",
-            "ex": "si us plau, camina pel riu.",
-            "exEn": "Go along the river."
+            "hint": "Seguir or anar per means to go along a street, river or route.",
+            "ex": "Seguiu pel costat del riu, si us plau.",
+            "exEn": "Please go along the river."
           },
           {
             "id": "directions-orientation-007",
@@ -4427,17 +4427,17 @@ export const levels = [
           },
           {
             "id": "directions-orientation-008",
-            "ca": "A prop",
+            "ca": "al costat de",
             "en": "next to, beside",
-            "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: next to, beside.",
-            "ex": "La botiga està al costat de la farmàcia.",
+            "hint": "Al costat de means next to or beside.",
+            "ex": "La botiga és al costat de la farmàcia.",
             "exEn": "The shop is next to the pharmacy."
           },
           {
             "id": "directions-orientation-009",
-            "ca": "contrari",
+            "ca": "davant de",
             "en": "opposite, across from",
-            "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: opposite, across from.",
+            "hint": "Davant de means opposite or in front of, depending on context.",
             "ex": "L'hotel està davant del parc.",
             "exEn": "The hotel is opposite the park."
           },
@@ -4451,17 +4451,17 @@ export const levels = [
           },
           {
             "id": "directions-orientation-011",
-            "ca": "per",
+            "ca": "darrere de",
             "en": "behind / beyond",
-            "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: behind / beyond.",
+            "hint": "Darrere de means behind; per does not mean behind.",
             "ex": "L'aparcament es troba darrere de l'edifici.",
             "exEn": "The car park is behind the building."
           },
           {
             "id": "directions-orientation-012",
-            "ca": "Abans",
+            "ca": "davant de",
             "en": "in front of",
-            "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: in front of.",
+            "hint": "Davant de means in front of.",
             "ex": "Ens trobem davant del cinema.",
             "exEn": "Let's meet in front of the cinema."
           },
@@ -4483,10 +4483,10 @@ export const levels = [
           },
           {
             "id": "directions-orientation-015",
-            "ca": "llums",
+            "ca": "semàfor",
             "en": "traffic lights",
-            "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: traffic lights.",
-            "ex": "si us plau, gireu al segon semàfor.",
+            "hint": "Semàfor is traffic light.",
+            "ex": "Gireu al segon semàfor, si us plau.",
             "exEn": "Turn at the second set of lights."
           },
           {
@@ -4494,31 +4494,31 @@ export const levels = [
             "ca": "pas de vianants",
             "en": "pedestrian crossing",
             "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: pedestrian crossing.",
-            "ex": "Travessar el pas de vianants.",
+            "ex": "Travessa pel pas de vianants.",
             "exEn": "Cross at the pedestrian crossing."
           },
           {
             "id": "directions-orientation-017",
-            "ca": "prop / lluny",
+            "ca": "a prop / lluny",
             "en": "near / far",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: near / far.",
+            "hint": "A prop means near; lluny means far.",
             "ex": "És molt a prop, a cinc minuts d'aquí.",
             "exEn": "It's very close, five minutes from here."
           },
           {
             "id": "directions-orientation-018",
-            "ca": "al costat esquerre/dret",
+            "ca": "a l’esquerra / a la dreta",
             "en": "on the left / right side",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: on the left / right side.",
+            "hint": "Use a l’esquerra for on the left and a la dreta for on the right.",
             "ex": "El restaurant és a l'esquerra.",
             "exEn": "The restaurant is on the left side."
           },
           {
             "id": "directions-orientation-019",
-            "ca": "per tant",
+            "ca": "des d’aquí",
             "en": "from here",
-            "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: from here.",
-            "ex": "A quina distància d'aquí al centre?",
+            "hint": "Des d’aquí means from here.",
+            "ex": "Quina distància hi ha des d’aquí fins al centre?",
             "exEn": "How far is it from here to the centre?"
           },
           {
@@ -4526,14 +4526,14 @@ export const levels = [
             "ca": "perdre's",
             "en": "to get lost",
             "hint": "Useful directions and orientation vocabulary in standard Central Catalan. Meaning: to get lost.",
-            "ex": "Crec que m'he perdut, on sóc?",
-            "exEn": "I think I'm lost - where am I?"
+            "ex": "Crec que m’he perdut, on soc?",
+            "exEn": "I think I’m lost, where am I?"
           },
           {
             "id": "directions-orientation-021",
-            "ca": "a peu / a peu",
+            "ca": "a peu",
             "en": "on foot",
-            "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: on foot.",
+            "hint": "A peu means on foot.",
             "ex": "Prefereixo caminar que agafar l'autobús.",
             "exEn": "I prefer to walk than take the bus."
           },
@@ -4542,8 +4542,8 @@ export const levels = [
             "ca": "mapa/navegació",
             "en": "map / (GPS) navigation",
             "hint": "When two forms are shown, learn both and choose the one that fits the context. Meaning: map / (GPS) navigation.",
-            "ex": "Sense navegació definitivament em perdria.",
-            "exEn": "Without the GPS I'd definitely get lost."
+            "ex": "Sense navegador segurament em perdria.",
+            "exEn": "Without navigation I would probably get lost."
           }
         ]
       }
